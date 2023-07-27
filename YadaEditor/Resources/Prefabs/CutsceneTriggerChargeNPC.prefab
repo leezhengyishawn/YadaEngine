@@ -1,0 +1,538 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "DurianParent",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianParent",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        }
+      ],
+      "ObjID" : 14265090878405084724,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 18.0, 0.0, -54.0 ],
+        "Quaternion" : [ 0.0, 1.0, 0.0, -4.3711388286737929e-08 ],
+        "Rotation" : [ -0.0, 180.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook00",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook00",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14265090878405084725,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 17.0, 1.0, -54.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation00",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation00",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shakeCamera" : 
+          {
+            "Field Name" : "shakeCamera",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14265090878405084726,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 18.0, 1.0, -49.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook01",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook01",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14265090878405084727,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 18.0, 0.0, -55.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation01",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation01",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shakeCamera" : 
+          {
+            "Field Name" : "shakeCamera",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14265090878405084728,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 17.0, 3.0, -49.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "CutsceneTriggerWithDialogueTemplate",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "CutsceneTriggerWithDialogueTemplate",
+      "Prefab GUID" : 4547319016601619798,
+      "Prefab Name" : "CutsceneTriggerChargeNPC",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 18.0, 0.0, -54.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 2.0, 4.0, 2.0 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 4.0, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 0.47549021244049072,
+      "ColorZ" : 0.47549021244049072,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "",
+      "Model Name" : "Durian_Model",
+      "Type" : 0,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "CutsceneTrigger",
+      "GUID" : 10765104205153683754,
+      "allowButtonPress" : null,
+      "cameraPosFollow" : 
+      {
+        "Field Name" : "cameraPosFollow",
+        "Field Type" : 15,
+        "Field Value" : 14264998321859854837
+      },
+      "controlledByTime" : 
+      {
+        "Field Name" : "controlledByTime",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "cutsceneActivated" : null,
+      "cutsceneDurationCurrent" : null,
+      "cutsceneDurationMaximum" : null,
+      "delayDurationCurrent" : null,
+      "delayDurationMaximum" : null,
+      "dialogueBehaviour" : null,
+      "enteredPlayer" : null,
+      "hasBeenTriggered" : null,
+      "hasEndedDialogue" : 
+      {
+        "Field Name" : "hasEndedDialogue",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "hasResetButtons" : null,
+      "ignoreThisTrigger" : 
+      {
+        "Field Name" : "ignoreThisTrigger",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "isFrozenCam" : null,
+      "listOfLookObjects" : null,
+      "listOfStationObjects" : null,
+      "mainCamera" : null,
+      "merchantBehaviour" : null,
+      "player1Behaviour" : null,
+      "player1ReadyNext" : null,
+      "player1ReadySkip" : null,
+      "player2Behaviour" : null,
+      "player2ReadyNext" : null,
+      "player2ReadySkip" : null,
+      "shotValue" : null,
+      "showDurationCurrent" : null,
+      "showDurationMaximum" : null,
+      "startTimer" : null,
+      "startingRotation" : null,
+      "transitionLevelTrigger" : null,
+      "unlockableBehaviour" : null
+    },
+    {
+      "Component Name" : "Unlockable",
+      "GUID" : 10765104205153683754,
+      "achieveSFX" : null,
+      "bgRotationSpeed" : 
+      {
+        "Field Name" : "bgRotationSpeed",
+        "Field Type" : 10,
+        "Field Value" : 50.0
+      },
+      "bgScaleSize" : null,
+      "bgScaleVel" : null,
+      "bgSprite" : 
+      {
+        "Field Name" : "bgSprite",
+        "Field Type" : 15,
+        "Field Value" : 14264998261730312277
+      },
+      "cTimer1" : null,
+      "cTimer2" : null,
+      "isChargedPunch" : 
+      {
+        "Field Name" : "isChargedPunch",
+        "Field Type" : 1,
+        "Field Value" : true
+      },
+      "lerpInLockRing" : null,
+      "lockRingEndPos" : 
+      {
+        "Field Name" : "lockRingEndPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 35.0, -0.004999999888241291 ]
+      },
+      "lockRingSprite" : 
+      {
+        "Field Name" : "lockRingSprite",
+        "Field Type" : 15,
+        "Field Value" : 14264998261730312276
+      },
+      "lockRingStartPos" : 
+      {
+        "Field Name" : "lockRingStartPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, -0.004999999888241291 ]
+      },
+      "lockSprite" : 
+      {
+        "Field Name" : "lockSprite",
+        "Field Type" : 15,
+        "Field Value" : 14264998261730312275
+      },
+      "promptPlay" : null,
+      "triggered" : 
+      {
+        "Field Name" : "triggered",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "ui1" : null,
+      "ui2" : null,
+      "ui3" : null,
+      "uiAppearSFX" : null,
+      "unlockPlay" : null,
+      "unlockSFX" : null,
+      "unlockedPrompt" : 
+      {
+        "Field Name" : "unlockedPrompt",
+        "Field Type" : 15,
+        "Field Value" : 14264998261730312279
+      },
+      "unlockedSprite" : 
+      {
+        "Field Name" : "unlockedSprite",
+        "Field Type" : 15,
+        "Field Value" : 14264998261730312278
+      }
+    },
+    {
+      "Component Name" : "Dialogue",
+      "GUID" : 10765104205153683754,
+      "cTimer" : null,
+      "currentText" : null,
+      "currentTextNumber" : null,
+      "dialogueIsShowing" : 
+      {
+        "Field Name" : "dialogueIsShowing",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "dialogueSprite" : 
+      {
+        "Field Name" : "dialogueSprite",
+        "Field Type" : 15,
+        "Field Value" : 14264998339039724194
+      },
+      "hasPlayedSpeakerAudio" : null,
+      "hasUnlock" : null,
+      "speakerSFX1" : null,
+      "speakerSFX2" : null,
+      "speakerSFX3" : null,
+      "speakerSprite" : 
+      {
+        "Field Name" : "speakerSprite",
+        "Field Type" : 15,
+        "Field Value" : 14264998339039724193
+      },
+      "speakerSpriteEndPos" : null,
+      "speakerSpriteStartPos" : 
+      {
+        "Field Name" : "speakerSpriteStartPos",
+        "Field Type" : 13,
+        "Field Value" : [ -1200.0, -320.0, 0.0 ]
+      },
+      "text1" : 
+      {
+        "Field Name" : "text1",
+        "Field Type" : 15,
+        "Field Value" : 14264998339039724195
+      },
+      "text2" : 
+      {
+        "Field Name" : "text2",
+        "Field Type" : 15,
+        "Field Value" : 14264998343334691492
+      },
+      "text3" : 
+      {
+        "Field Name" : "text3",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "ui1" : null,
+      "ui2" : null
+    },
+    {
+      "Component Name" : "DurianBehaviour",
+      "GUID" : 10765104205153683754,
+      "dialogue" : null,
+      "dialogueStarted" : null,
+      "durianAnim" : null,
+      "durianMesh" : 
+      {
+        "Field Name" : "durianMesh",
+        "Field Type" : 15,
+        "Field Value" : 14264998321859854844
+      }
+    }
+  ],
+  "ObjID" : 14265090878405084723,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 18.0, 0.0, -54.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

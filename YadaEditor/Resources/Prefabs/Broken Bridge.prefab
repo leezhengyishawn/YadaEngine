@@ -1,0 +1,155 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Broken Bridge",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Broken Bridge",
+      "Prefab GUID" : 2918895806136833157,
+      "Prefab Name" : "Broken Bridge",
+      "Tag" : "Ground"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 0.99999362230300903,
+      "ColorZ" : 0.99998998641967773,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Planks",
+      "Model Name" : "FallingPlatform_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "PlankBehaviour",
+      "GUID" : 10765104205153683754,
+      "originalPos" : 
+      {
+        "Field Name" : "originalPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "rb" : null,
+      "target" : null,
+      "thrust" : 
+      {
+        "Field Name" : "thrust",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "transform" : null
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -40.124279022216797, -0.18000888824462891, 47.912147521972656 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 1,
+      "Rotation" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.5, 0.05000000074505806, 1.0 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 7,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsAutoScaleBox" : true,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "Radius" : 5.1376391271140701e-28,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Component Name" : "BrokenBridge",
+      "GUID" : 10765104205153683754,
+      "endingPos" : 
+      {
+        "Field Name" : "endingPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "getRandom" : null,
+      "isSinking" : 
+      {
+        "Field Name" : "isSinking",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "myTransform" : null,
+      "setSinking" : 
+      {
+        "Field Name" : "setSinking",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "shakeValue" : 
+      {
+        "Field Name" : "shakeValue",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "startingPos" : 
+      {
+        "Field Name" : "startingPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "timerFloatCurrent" : 
+      {
+        "Field Name" : "timerFloatCurrent",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "timerFloatMaximum" : 
+      {
+        "Field Name" : "timerFloatMaximum",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "timerSinkCurrent" : 
+      {
+        "Field Name" : "timerSinkCurrent",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "timerSinkMaximum" : 
+      {
+        "Field Name" : "timerSinkMaximum",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      }
+    }
+  ],
+  "ObjID" : 7756978573168083565,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -40.124279022216797, -0.18000888824462891, 47.912147521972656 ],
+    "Quaternion" : [ 0.0, 0.92387956380844116, -0.0, -0.3826833963394165 ],
+    "Rotation" : [ 0.0, 225.0, 0.0 ],
+    "Scale" : [ 1.0, 0.10000000149011612, 2.0 ]
+  }
+}

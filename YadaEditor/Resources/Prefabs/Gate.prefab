@@ -1,0 +1,153 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "GateRender",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "GateRender",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "Gate_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 7095007242499392344,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -37.0, 2.0, 75.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Gate",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Gate",
+      "Prefab GUID" : 13080558324401569490,
+      "Prefab Name" : "Gate",
+      "Tag" : "Ground"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -37.0, 2.0, 75.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.20000000298023224, 2.0, 2.0 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "Offset" : [ 0.0, 2.0, 0.0 ],
+      "Radius" : 0.25999999046325684,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Component Name" : "GateResponse",
+      "GUID" : 10765104205153683754,
+      "eventRes" : null,
+      "gateAudioPrefab" : 
+      {
+        "Field Name" : "gateAudioPrefab",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "gateAudioTransform" : null,
+      "gateSFX" : null,
+      "hasPlayedOnce" : 
+      {
+        "Field Name" : "hasPlayedOnce",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "meshTransform" : null,
+      "myCollider" : null,
+      "openGateAmount" : 
+      {
+        "Field Name" : "openGateAmount",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      }
+    },
+    {
+      "Component Name" : "EventResponse",
+      "GUID" : 10765104205153683754,
+      "eventID" : 
+      {
+        "Field Name" : "eventID",
+        "Field Type" : 6,
+        "Field Value" : 0
+      },
+      "fired" : 
+      {
+        "Field Name" : "fired",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "self" : 
+      {
+        "Field Name" : "self",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      }
+    }
+  ],
+  "ObjID" : 7095007242499392343,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -37.0, 2.0, 75.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

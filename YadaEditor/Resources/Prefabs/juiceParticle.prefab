@@ -1,0 +1,90 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "juiceParticle",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "juiceParticle",
+      "Prefab GUID" : 17524695789275050337,
+      "Prefab Name" : "juiceParticle",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 0.16615776717662811,
+      "EndColorMaxY" : 0.045559395104646683,
+      "EndColorMaxZ" : 0.38725489377975464,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 0.30857741832733154,
+      "EndColorMinY" : 0.020544974133372307,
+      "EndColorMinZ" : 0.46568626165390015,
+      "GUID" : 17753737907564724671,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 10,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ScaleRatioX" : 1.0,
+      "ScaleRatioY" : 1.0,
+      "StartColorMaxW" : 0.63921570777893066,
+      "StartColorMaxX" : 0.3432517945766449,
+      "StartColorMaxY" : 0.020520996302366257,
+      "StartColorMaxZ" : 0.59803920984268188,
+      "StartColorMinW" : 0.82745099067687988,
+      "StartColorMinX" : 0.66840523481369019,
+      "StartColorMinY" : 0.2997404932975769,
+      "StartColorMinZ" : 0.92647057771682739,
+      "boxHalfExtentX" : 1.0,
+      "boxHalfExtentY" : 1.0,
+      "boxHalfExtentZ" : 1.0,
+      "coneAngle" : 30.0,
+      "coneRadius" : 0.5,
+      "constForceMaxX" : 0.0,
+      "constForceMaxY" : -10.0,
+      "constForceMaxZ" : 0.0,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : -7.0,
+      "constForceMinZ" : 0.0,
+      "dirType" : 0,
+      "directionX" : 0.0,
+      "directionY" : 1.0,
+      "directionZ" : 0.0,
+      "diskRadius" : 0.40000000596046448,
+      "duration" : 1.0,
+      "edgeLength" : 0.5,
+      "emitterMode" : 1,
+      "finalScaleMax" : 0.10000000149011612,
+      "finalScaleMin" : 0.0,
+      "lifeTimeMax" : 0.5,
+      "lifeTimeMin" : 0.40000000596046448,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : 0.0,
+      "rotationMin" : 0.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.20000000298023224,
+      "scaleMin" : 0.30000001192092896,
+      "sphereRadius" : 0.10000000149011612,
+      "startSpeedMax" : 5.0,
+      "startSpeedMin" : 2.0,
+      "texture" : "circle"
+    }
+  ],
+  "ObjID" : 3815819675011384733,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 1.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 0.5, 1.0 ]
+  }
+}

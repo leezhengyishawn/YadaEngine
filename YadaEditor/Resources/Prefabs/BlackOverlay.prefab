@@ -1,0 +1,41 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "WhiteOverlay",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "WhiteOverlay",
+      "Prefab GUID" : 11654943072126013324,
+      "Prefab Name" : "BlackOverlay",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "UIComponent",
+      "GUID" : 15327929856128578838,
+      "colorW" : 0.0,
+      "colorX" : 0.95686274766921997,
+      "colorY" : 0.96078431606292725,
+      "colorZ" : 0.86666667461395264,
+      "fillHori" : 1.0,
+      "fillMode" : 0,
+      "fillVert" : 1.0,
+      "hightlightedTexture" : "",
+      "texture" : "whiteTexture",
+      "type" : 0,
+      "worldSize" : true,
+      "worldUI" : false
+    }
+  ],
+  "ObjID" : 14263192498565285498,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 5.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 2000.0, 2000.0, 1.0 ]
+  }
+}

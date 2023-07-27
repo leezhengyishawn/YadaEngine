@@ -1,0 +1,109 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "EnemyTossCrate",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "EnemyTossCrate",
+      "Prefab GUID" : 3079643320250700183,
+      "Prefab Name" : "EnemyTossCrate",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "",
+      "Model Name" : "Wooden_Crate_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.80000001192092896,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 1.0,
+      "Position" : [ -35.665790557861328, 2.4531726837158203, 2.6055600643157959 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 2,
+      "Rotation" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : true
+    },
+    {
+      "BoxHalfExtent" : [ 0.23000000417232513, 0.23000000417232513, 0.23000000417232513 ],
+      "CollisionGroup" : 3,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "Offset" : [ 0.0, 0.23000000417232513, 0.0 ],
+      "Radius" : 0.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Component Name" : "EnemyCrateBehaviour",
+      "GUID" : 10765104205153683754,
+      "dir" : 
+      {
+        "Field Name" : "dir",
+        "Field Type" : 13,
+        "Field Value" : [ 11.111719131469727, -1.3770442008972168, -9.5714788436889648 ]
+      },
+      "lifetime" : 
+      {
+        "Field Name" : "lifetime",
+        "Field Type" : 10,
+        "Field Value" : 5.0
+      },
+      "myRigidbody" : null,
+      "player" : 
+      {
+        "Field Name" : "player",
+        "Field Type" : 15,
+        "Field Value" : 3956866044529737936
+      },
+      "speed" : 
+      {
+        "Field Name" : "speed",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "timeCounter" : 
+      {
+        "Field Name" : "timeCounter",
+        "Field Type" : 6,
+        "Field Value" : 0
+      }
+    }
+  ],
+  "ObjID" : 3956866053119672560,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -35.665790557861328, 2.4531726837158203, 2.6055600643157959 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

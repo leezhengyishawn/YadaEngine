@@ -1,0 +1,297 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "MerchantProfile",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantProfile",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneMerchant2",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 0.89999997615814209,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 15402935412781583329,
+          "Source Name" : "LadyFinger_2",
+          "Unique" : false,
+          "Volume" : 0.89999997615814209
+        }
+      ],
+      "ObjID" : 14290776891664107136,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 800.0, -260.0, -2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 420.0, 430.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "EggDialogueBubble",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EggDialogueBubble",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.31590959429740906,
+          "colorY" : 0.039287779480218887,
+          "colorZ" : 0.53431373834609985,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneDialogueColour",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14290776891664107137,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 350.0, -320.0, -1.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 600.0, 300.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "EggDialogue_0_1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EggDialogue_0_1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "Who's there?!",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        }
+      ],
+      "ObjID" : 14290776891664107138,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 120.0, -280.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "EggProfile",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EggProfile",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneEggplant",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 6657452024176869645,
+          "Source Name" : "Eggplant_8.1_1",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14290776891664107139,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 800.0, -275.0, -2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 450.0, 500.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "EggDialogue_0_2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EggDialogue_0_2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "...Rotten fruits! How dare you invade my roots!",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        }
+      ],
+      "ObjID" : 14290776891664107147,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 120.0, -280.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "EggDialogue_2_1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EggDialogue_2_1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "You can't dew this to me...! This wouldn't have happened if I was accepted as one of your kind...\"",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        }
+      ],
+      "ObjID" : 14291274785747895940,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 120.0, -280.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Cutscene Boss Dialogue",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Cutscene Boss Dialogue",
+      "Prefab GUID" : 38623662857165876,
+      "Prefab Name" : "Cutscene Boss Dialogue",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 14290776891664107135,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

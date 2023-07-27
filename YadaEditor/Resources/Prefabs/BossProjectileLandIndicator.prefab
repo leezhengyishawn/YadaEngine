@@ -1,0 +1,43 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "BossProjectileLandIndicator",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "BossProjectileLandIndicator",
+      "Prefab GUID" : 9898311518337451939,
+      "Prefab Name" : "BossProjectileLandIndicator",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 0.99998998641967773,
+      "ColorY" : 0.99999326467514038,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "BossProjectile",
+      "Model Name" : "Player_CircleIndicator_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "BossProjectileLandingPredictor",
+      "GUID" : 10765104205153683754
+    }
+  ],
+  "ObjID" : 7826739751272056024,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Albedo" : "melon_lambert1_BaseColor",
+  "Normal" : "melon_lambert1_Normal",
+  "ORM" : "melon_lambert1_OcclusionRoughnessMetallic",
+  "RimColorX" : 1.0,
+  "RimColorY" : 1.0,
+  "RimColorZ" : 1.0,
+  "RimWidth" : 0.0
+}

@@ -1,0 +1,49 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Exclamation_Mark",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Exclamation_Mark",
+      "Prefab GUID" : 11317325508450827742,
+      "Prefab Name" : "Exclamation_Mark",
+      "Tag" : "None"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "P2_Pineap",
+      "Model Name" : "Exclamation_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "EnemyAlertExcalamtion",
+      "GUID" : 10765104205153683754,
+      "lifespan" : 
+      {
+        "Field Name" : "lifespan",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      }
+    }
+  ],
+  "ObjID" : 11516967865219547254,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

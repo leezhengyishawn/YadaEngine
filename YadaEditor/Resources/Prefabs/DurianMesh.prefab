@@ -1,0 +1,387 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "DurianMesh",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "DurianMesh",
+      "Prefab GUID" : 2134610483285775749,
+      "Prefab Name" : "DurianMesh",
+      "Tag" : "None"
+    },
+    {
+      "Animation Name" : "PlayerPineApple_IdleLook",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "durian",
+      "Model Name" : "DURIANNEW_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Animate" : true,
+      "Animate Count" : -1,
+      "AnimateIndex" : 7,
+      "AnimationFiles" : 
+      [
+        {
+          "File" : "PlayerPineApple_BossDefeated"
+        },
+        {
+          "File" : "PlayerPineApple_ClawMachine"
+        },
+        {
+          "File" : "PlayerPineApple_Detect"
+        },
+        {
+          "File" : "PlayerPineApple_Drown"
+        },
+        {
+          "File" : "PlayerPineApple_Falling"
+        },
+        {
+          "File" : "PlayerPineApple_IdleCharge"
+        },
+        {
+          "File" : "PlayerPineApple_IdleFront"
+        },
+        {
+          "File" : "PlayerPineApple_IdleLook"
+        },
+        {
+          "File" : "PlayerPineApple_Land"
+        },
+        {
+          "File" : "PlayerPineApple_LeftPunch"
+        },
+        {
+          "File" : "PlayerPineApple_LookUp"
+        },
+        {
+          "File" : "PlayerPineApple_MerchantTriggered"
+        },
+        {
+          "File" : "PlayerPineApple_MerchantUntriggered"
+        },
+        {
+          "File" : "PlayerPineApple_PunchFail"
+        },
+        {
+          "File" : "PlayerPineApple_PunchUp"
+        },
+        {
+          "File" : "PlayerPineApple_PunchedUp"
+        },
+        {
+          "File" : "PlayerPineApple_PushCart"
+        },
+        {
+          "File" : "PlayerPineApple_RightDamaged"
+        },
+        {
+          "File" : "PlayerPineApple_RightPunch"
+        },
+        {
+          "File" : "PlayerPineApple_Roll"
+        },
+        {
+          "File" : "PlayerPineApple_Stun"
+        },
+        {
+          "File" : "PlayerPineApple_Talk"
+        },
+        {
+          "File" : "PlayerPineApple_Think"
+        },
+        {
+          "File" : "PlayerPineApple_WalkCharge"
+        },
+        {
+          "File" : "PlayerPineApple_Wave"
+        },
+        {
+          "File" : "PlayerPineApple_run"
+        },
+        {
+          "File" : "PlayerPineApple_walk"
+        }
+      ],
+      "Component Name" : "Animator",
+      "GUID" : 10963690946328088244,
+      "KeySegment" : 
+      [
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 48,
+          "Loop" : false,
+          "MaxFrame" : 48,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 27,
+          "Loop" : false,
+          "MaxFrame" : 27,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 20,
+          "Loop" : false,
+          "MaxFrame" : 20,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 34,
+          "Loop" : false,
+          "MaxFrame" : 34,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 25,
+          "Loop" : false,
+          "MaxFrame" : 25,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 14,
+          "Loop" : false,
+          "MaxFrame" : 14,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 39,
+          "Loop" : false,
+          "MaxFrame" : 39,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 76,
+          "Loop" : false,
+          "MaxFrame" : 76,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 23,
+          "Loop" : false,
+          "MaxFrame" : 23,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 14,
+          "Loop" : false,
+          "MaxFrame" : 14,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 29,
+          "Loop" : false,
+          "MaxFrame" : 29,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 58,
+          "Loop" : false,
+          "MaxFrame" : 58,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 78,
+          "Loop" : false,
+          "MaxFrame" : 78,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 16,
+          "Loop" : false,
+          "MaxFrame" : 16,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 30,
+          "Loop" : false,
+          "MaxFrame" : 30,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 44,
+          "Loop" : false,
+          "MaxFrame" : 44,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 38,
+          "Loop" : false,
+          "MaxFrame" : 38,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 17,
+          "Loop" : false,
+          "MaxFrame" : 17,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 15,
+          "Loop" : false,
+          "MaxFrame" : 15,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 12,
+          "Loop" : false,
+          "MaxFrame" : 12,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 20,
+          "Loop" : false,
+          "MaxFrame" : 20,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 88,
+          "Loop" : false,
+          "MaxFrame" : 88,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 42,
+          "Loop" : false,
+          "MaxFrame" : 42,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 28,
+          "Loop" : false,
+          "MaxFrame" : 28,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 52,
+          "Loop" : false,
+          "MaxFrame" : 52,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 26,
+          "Loop" : false,
+          "MaxFrame" : 26,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        },
+        {
+          "Delay" : 0.0,
+          "Duration" : 0.016699999570846558,
+          "EndFrame" : 30,
+          "Loop" : false,
+          "MaxFrame" : 30,
+          "Speed" : 1.0,
+          "StartFrame" : 0
+        }
+      ],
+      "Play" : true,
+      "Transform Animate" : true,
+      "Transform Animate Count" : -1,
+      "Transform AnimateIndex" : -1,
+      "Transform Play" : false
+    }
+  ],
+  "ObjID" : 14172969426248270090,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 5.1246738433837891, -6.9016175530123292e-07, -10.633756637573242 ],
+    "Quaternion" : 
+    [
+      5.9961507758998778e-08,
+      -0.85783630609512329,
+      1.5032943778692243e-08,
+      0.5139230489730835
+    ],
+    "Rotation" : [ 5.0089579417544883e-06, -118.14900207519531, -5.008955213270383e-06 ],
+    "Scale" : [ 0.015000051818788052, 0.015000056475400925, 0.015000051818788052 ]
+  }
+}

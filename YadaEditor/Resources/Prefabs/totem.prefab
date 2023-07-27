@@ -1,0 +1,83 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "totem",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "totem",
+      "Prefab GUID" : 3304759756937661350,
+      "Prefab Name" : "totem",
+      "Tag" : "Solid"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 0.61029410362243652,
+      "ColorY" : 0.81372547149658203,
+      "ColorZ" : 0.65217697620391846,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "StoneProp",
+      "Model Name" : "Stone_Totem_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -4.0004749298095703, 3.0, -23.030813217163086 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.60000002384185791, 2.0, 0.60000002384185791 ],
+      "CollisionGroup" : 1,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 1.0, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    }
+  ],
+  "ObjID" : 7204984162195866662,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -4.0004749298095703, 3.0, -23.030813217163086 ],
+    "Quaternion" : [ 0.0, -0.69612711668014526, 0.0, 0.71791857481002808 ],
+    "Rotation" : [ -0.0, 91.765693664550781, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

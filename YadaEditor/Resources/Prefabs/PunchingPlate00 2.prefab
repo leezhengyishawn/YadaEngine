@@ -1,0 +1,103 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "PunchingPlate00 2",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "PunchingPlate00 2",
+      "Prefab GUID" : 11769624293227912889,
+      "Prefab Name" : "PunchingPlate00 2",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -4.0, 3.6234185695648193, -22.5 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 1,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.5, 0.5, 0.5 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : true,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "",
+      "Offset" : [ 0.0, -0.20000000298023224, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 60.074260711669922,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "PressurePlate2",
+      "Model Name" : "PressurePlate_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "PunchingPlate",
+      "GUID" : 10765104205153683754,
+      "myTransform" : null,
+      "punched" : null,
+      "punchedDownAmount" : null,
+      "startingPos" : null
+    },
+    {
+      "Component Name" : "EventTrigger",
+      "GUID" : 10765104205153683754,
+      "eventID" : 
+      {
+        "Field Name" : "eventID",
+        "Field Type" : 6,
+        "Field Value" : 5
+      },
+      "listener" : null,
+      "triggerBool" : null
+    }
+  ],
+  "ObjID" : 7204759982082883676,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -4.0, 3.6234185695648193, -22.5 ],
+    "Quaternion" : [ 0.5, 0.5, 0.5, 0.5 ],
+    "Rotation" : [ -0.0, 90.0, 90.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

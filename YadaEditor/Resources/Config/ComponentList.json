@@ -1,0 +1,18 @@
+{
+    "Component Names": [
+        "Animator",
+        "AudioListener",
+        "AudioSource",
+        "CameraComponent",
+        "Collider",
+        "LightComponent",
+        "RendererComponent",
+        "ParticleEmitter",
+        "UIComponent",
+        "UITextComponent",        
+        "WaterComponent",
+        "ReplicateComponent",
+        "RigidBody",
+        "Transform"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "BossTriggerZone",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "BossTriggerZone",
+      "Prefab GUID" : 16796678207518109110,
+      "Prefab Name" : "BossTriggerZone",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 2.9460129737854004, 1.0, -0.88118088245391846 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 3.2000000476837158, 1.0, 4.0 ],
+      "CollisionGroup" : 463,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Component Name" : "BossSpawnTriggerZone",
+      "GUID" : 10765104205153683754,
+      "eventTrigger" : null
+    }
+  ],
+  "ObjID" : 2392227669258273782,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 2.9460129737854004, 1.0, -0.88118088245391846 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

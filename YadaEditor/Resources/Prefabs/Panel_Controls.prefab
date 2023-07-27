@@ -1,0 +1,81 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Title_Controls",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Title_Controls",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Header_Controls",
+          "type" : 0
+        }
+      ],
+      "ObjID" : 6741729500750413840,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 357.91995239257812, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 897.0, 199.72798156738281, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Panel_Controls",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Panel_Controls",
+      "Prefab GUID" : 1339314375239461264,
+      "Prefab Name" : "Panel_Controls",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "UIComponent",
+      "GUID" : 15327929856128578838,
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "fillHori" : 1.0,
+      "fillMode" : 0,
+      "fillVert" : 1.0,
+      "hightlightedTexture" : "",
+      "texture" : "Menu_Controls",
+      "type" : 0
+    }
+  ],
+  "ObjID" : 6741729500750413839,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, -10.0, -0.0099999997764825821 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1300.0, 876.0, 1.0 ]
+  }
+}

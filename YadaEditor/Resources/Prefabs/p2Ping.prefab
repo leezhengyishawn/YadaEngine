@@ -1,0 +1,59 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "p2Ping",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "p2Ping",
+      "Prefab GUID" : 8386489912928272651,
+      "Prefab Name" : "p2Ping",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "PopUp",
+      "GUID" : 10765104205153683754,
+      "endPos" : null,
+      "endScale" : null,
+      "hangTime" : null,
+      "popUpState" : null,
+      "popupSprite" : null,
+      "scaleVelocity" : null,
+      "speed" : null,
+      "spriteStartPos" : null,
+      "spriteStartScale" : null,
+      "threshold" : null,
+      "timeTaken" : null,
+      "trans" : null,
+      "ui" : null,
+      "velocity" : null
+    },
+    {
+      "Component Name" : "UIComponent",
+      "GUID" : 15327929856128578838,
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "fillHori" : 1.0,
+      "fillMode" : 0,
+      "fillVert" : 1.0,
+      "hightlightedTexture" : "",
+      "texture" : "p2icon",
+      "type" : 0,
+      "worldSize" : true,
+      "worldUI" : true
+    }
+  ],
+  "ObjID" : 13084979735438557204,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -7.6293954407447018e-06, 3.0, -1.1444093615864404e-05 ],
+    "Quaternion" : [ 0.0, -0.70710676908493042, 0.0, 0.7071068286895752 ],
+    "Rotation" : [ -0.0, 90.0, 0.0 ],
+    "Scale" : [ 0.0010000003967434168, 0.0010000003967434168, 0.0010000003967434168 ]
+  }
+}

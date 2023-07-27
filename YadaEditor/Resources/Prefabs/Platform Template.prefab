@@ -1,0 +1,301 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Side",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Side",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Side_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381579178803354,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Connect",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Connect",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Connect_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381579178803355,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 2.0, 0.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Soil_Corner",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Soil_Corner",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Soil",
+          "Model Name" : "Soil_Corner_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381579178803356,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Soil_Connect",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Soil_Connect",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Soil",
+          "Model Name" : "Soil_Connect_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381579178803357,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 2.0, 0.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Corner",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Corner",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Corner_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381579178803358,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Side",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Side",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Top_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381583473770655,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -2.0, 0.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Soil_Side",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Soil_Side",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Soil",
+          "Model Name" : "Soil_Side_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14832381583473770656,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Platform Template",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Platform Template",
+      "Prefab GUID" : 10976786396347611976,
+      "Prefab Name" : "Platform Template",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 14832381579178803353,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "CameraTrigger",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "CameraTrigger",
+      "Prefab GUID" : 15505430697301013686,
+      "Prefab Name" : "CameraTrigger",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -35.0, 1.9999998807907104, 77.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 1.5, 1.5, 1.5 ],
+      "CollisionGroup" : 3,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsAutoScaleBox" : true,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "Radius" : 0.25999999046325684,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 0.8235163688659668,
+      "ColorY" : 0.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "",
+      "Model Name" : "",
+      "Type" : 0,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "CameraTrigger",
+      "GUID" : 10765104205153683754,
+      "cameraLocalPos" : 
+      {
+        "Field Name" : "cameraLocalPos",
+        "Field Type" : 13,
+        "Field Value" : [ 1.0, 3.0, 3.0 ]
+      },
+      "isCamTrigger" : 
+      {
+        "Field Name" : "isCamTrigger",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "isMerchantTrigger" : 
+      {
+        "Field Name" : "isMerchantTrigger",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "mainCamera" : null,
+      "transform" : null
+    }
+  ],
+  "ObjID" : 7101292570654802677,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -35.0, 1.9999998807907104, 77.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 3.0, 3.0, 3.0 ]
+  }
+}

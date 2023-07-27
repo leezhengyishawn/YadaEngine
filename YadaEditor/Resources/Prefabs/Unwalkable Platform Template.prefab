@@ -1,0 +1,145 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Side",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Side",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.78431373834609985,
+          "ColorY" : 0.78431373834609985,
+          "ColorZ" : 0.58823531866073608,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Side_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14833799893344059533,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 2.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 0.5, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Connect",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Connect",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.78431373834609985,
+          "ColorY" : 0.78431373834609985,
+          "ColorZ" : 0.58823531866073608,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Connect_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14833799893344059534,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 2.0, 2.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 0.5, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Grass_Corner",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Grass_Corner",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.78431373834609985,
+          "ColorY" : 0.78431373834609985,
+          "ColorZ" : 0.58823531866073608,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Terrain_Grass",
+          "Model Name" : "Grass_Corner_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14833799893344059535,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 2.0, 2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 0.5, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Unwalkable Platform Template",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Unwalkable Platform Template",
+      "Prefab GUID" : 7283000235160412768,
+      "Prefab Name" : "Unwalkable Platform Template",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 14833799893344059532,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

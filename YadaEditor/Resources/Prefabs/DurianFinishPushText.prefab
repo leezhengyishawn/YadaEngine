@@ -1,0 +1,141 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "1.2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "1.2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Scene1.2_Durian",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : true
+        },
+        {
+          "Component Name" : "PopUp",
+          "GUID" : 10765104205153683754,
+          "endPos" : null,
+          "endScale" : null,
+          "hangTime" : null,
+          "popUpState" : null,
+          "popupSprite" : null,
+          "scaleVelocity" : null,
+          "speed" : null,
+          "spriteStartPos" : null,
+          "spriteStartScale" : null,
+          "threshold" : null,
+          "timeTaken" : null,
+          "trans" : null,
+          "ui" : null,
+          "velocity" : null
+        }
+      ],
+      "ObjID" : 14306139714803991035,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -5.2989411354064941, 0.0, -54.0 ],
+        "Quaternion" : [ 0.0, 2.4286126969609405e-14, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 2.7829849969657205e-12, 0.0 ],
+        "Scale" : [ 0.0010000000474974513, 0.0010000000474974513, 0.0010000000474974513 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : false,
+      "Component Name" : "DurianFinishPushText",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "DurianFinishPushText",
+      "Prefab GUID" : 7631430921083964076,
+      "Prefab Name" : "DurianFinishPushText",
+      "Tag" : "None"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -5.0, 0.0, -53.849998474121094 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.5, 0.5, 0.5 ],
+      "CollisionGroup" : 211,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 6,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 6,
+      "IsActive" : true,
+      "IsAutoScaleBox" : true,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "Box",
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "PolyModelName" : "Box",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 9,
+      "VerticesInEachFace" : 4
+    },
+    {
+      "Component Name" : "WorldUIDialogue",
+      "GUID" : 10765104205153683754,
+      "worldDialogue" : 
+      {
+        "Field Name" : "worldDialogue",
+        "Field Type" : 15,
+        "Field Value" : 14306139714803991035
+      }
+    }
+  ],
+  "ObjID" : 14306139714803991034,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -5.0, 0.0, -53.849998474121094 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

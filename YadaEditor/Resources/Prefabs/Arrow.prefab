@@ -1,0 +1,32 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Arrow",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Arrow",
+      "Prefab GUID" : 7723653301448383910,
+      "Prefab Name" : "Arrow",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Bench_M",
+      "Model Name" : "Arrow_Model",
+      "Type" : 2
+    }
+  ],
+  "ObjID" : 12484284149131116547,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -1.2877156734466553, 0.37430912256240845, 1.8013502359390259 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,2 @@
+..\\Resources\\Textures\\Crate\\Crate_D.dds
+..\\Resources\\Sprites\\Menu\\LoadingScrn.dds

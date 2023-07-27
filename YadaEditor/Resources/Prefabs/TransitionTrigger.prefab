@@ -1,0 +1,94 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "TransitionTrigger",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "TransitionTrigger",
+      "Prefab GUID" : 5125719797294307714,
+      "Prefab Name" : "TransitionTrigger",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 0.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 0.20588231086730957,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "",
+      "Model Name" : "",
+      "Type" : 0,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 15.0, 0.0, -25.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 5.0, 5.0, 5.0 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 6,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 6,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "Box",
+      "Offset" : [ 0.0, 5.0, 0.0 ],
+      "PolyModelName" : "Box",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 9,
+      "VerticesInEachFace" : 4
+    },
+    {
+      "Component Name" : "TransitionLevelTrigger",
+      "GUID" : 10765104205153683754,
+      "currentLevel" : 
+      {
+        "Field Name" : "currentLevel",
+        "Field Type" : 6,
+        "Field Value" : 1
+      },
+      "hasActivated" : null
+    }
+  ],
+  "ObjID" : 11963918869464088790,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 15.0, 0.0, -25.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

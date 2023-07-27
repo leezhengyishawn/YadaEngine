@@ -1,0 +1,39 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Signage Stop",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Signage Stop",
+      "Prefab GUID" : 8155671529978215829,
+      "Prefab Name" : "Signage Stop",
+      "Tag" : "None"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Signboards",
+      "Model Name" : "Sign_Stop_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    }
+  ],
+  "ObjID" : 5308356797902357909,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 12.0, 12.0, 12.0 ]
+  }
+}

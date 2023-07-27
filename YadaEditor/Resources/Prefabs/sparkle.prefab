@@ -1,0 +1,90 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "sparkle",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "sparkle",
+      "Prefab GUID" : 6886385769250043573,
+      "Prefab Name" : "sparkle",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 1.0,
+      "EndColorMaxY" : 1.0,
+      "EndColorMaxZ" : 1.0,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 1.0,
+      "EndColorMinZ" : 1.0,
+      "GUID" : 17753737907564724671,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 5,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ScaleRatioX" : 1.0,
+      "ScaleRatioY" : 1.0,
+      "StartColorMaxW" : 0.89411765336990356,
+      "StartColorMaxX" : 1.0,
+      "StartColorMaxY" : 0.84374964237213135,
+      "StartColorMaxZ" : 0.25,
+      "StartColorMinW" : 0.57254904508590698,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 0.9999997615814209,
+      "StartColorMinZ" : 0.62254905700683594,
+      "boxHalfExtentX" : 1.0,
+      "boxHalfExtentY" : 1.0,
+      "boxHalfExtentZ" : 1.0,
+      "coneAngle" : 0.0,
+      "coneRadius" : 0.0,
+      "constForceMaxX" : 0.0,
+      "constForceMaxY" : 0.60000002384185791,
+      "constForceMaxZ" : 0.0,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : 0.30000001192092896,
+      "constForceMinZ" : 0.0,
+      "dirType" : 0,
+      "directionX" : 1.0,
+      "directionY" : 0.0,
+      "directionZ" : 0.0,
+      "diskRadius" : 0.0,
+      "duration" : 1.0,
+      "edgeLength" : 0.20000000298023224,
+      "emitterMode" : 3,
+      "finalScaleMax" : 0.80000001192092896,
+      "finalScaleMin" : 1.2000000476837158,
+      "lifeTimeMax" : 1.0,
+      "lifeTimeMin" : 0.5,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : -5.0,
+      "rotationMin" : 5.0,
+      "rotationSpeedMax" : 0.20000000298023224,
+      "rotationSpeedMin" : -0.20000000298023224,
+      "scaleMax" : 0.20000000298023224,
+      "scaleMin" : 0.5,
+      "sphereRadius" : 0.10000000149011612,
+      "startSpeedMax" : 0.40000000596046448,
+      "startSpeedMin" : 0.20000000298023224,
+      "texture" : "sparkle"
+    }
+  ],
+  "ObjID" : 5259197439750964660,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 2.8125138282775879, 2.1378049850463867, -1.3313324451446533 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

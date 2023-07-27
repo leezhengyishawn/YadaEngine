@@ -1,0 +1,41 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "TestAudioPrefab",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "TestAudioPrefab",
+      "Prefab GUID" : 10988328043734528087,
+      "Prefab Name" : "TestAudioPrefab",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "AudioSource",
+      "Dimension" : false,
+      "GUID" : 10483518190252336036,
+      "Loop" : false,
+      "MaxDist" : 10.0,
+      "MinDist" : 1.0,
+      "Mute" : false,
+      "Pitch" : 1.0,
+      "PlayOnStart" : false,
+      "Priority" : 0,
+      "Source GUID" : 5325887260993219162,
+      "Source Name" : "SFX Enemy Death",
+      "Unique" : false,
+      "Volume" : 1.0
+    }
+  ],
+  "ObjID" : 12050820398757969920,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

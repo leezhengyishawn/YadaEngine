@@ -1,0 +1,56 @@
+{
+  "Transform Curves" : 
+  {
+    "X" : 
+    {
+      "Points" : 
+      [
+        {
+          "Slope" : 0.0,
+          "Time" : 0.0,
+          "Value" : 0.0
+        },
+        {
+          "Slope" : 0.0,
+          "Time" : 58.499996185302734,
+          "Value" : 7.4666671752929688
+        }
+      ]
+    },
+    "Y" : 
+    {
+      "Points" : 
+      [
+        {
+          "Slope" : 0.0,
+          "Time" : 0.0,
+          "Value" : 0.0
+        },
+        {
+          "Slope" : 0.0,
+          "Time" : 60.0,
+          "Value" : 0.0
+        }
+      ]
+    },
+    "Z" : 
+    {
+      "Points" : 
+      [
+        {
+          "Slope" : 0.0,
+          "Time" : 0.0,
+          "Value" : 0.0
+        },
+        {
+          "Slope" : 0.0,
+          "Time" : 60.0,
+          "Value" : 0.0
+        }
+      ]
+    }
+  },
+  "Use Rotation" : false,
+  "Use Scale" : false,
+  "Use Position" : true
+}

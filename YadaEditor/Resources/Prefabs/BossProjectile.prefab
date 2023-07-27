@@ -1,0 +1,87 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "BossProjectile",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "BossProjectile",
+      "Prefab GUID" : 2139067649259402267,
+      "Prefab Name" : "BossProjectile",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 0.56593680381774902,
+      "ColorY" : 0.38725489377975464,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "BossProjectile",
+      "Model Name" : "",
+      "Type" : 1,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 2,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : true
+    },
+    {
+      "BoxHalfExtent" : [ 0.25, 0.25, 0.25 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 6,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 6,
+      "IsActive" : true,
+      "IsAutoScaleBox" : true,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "ModelName" : "Box",
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "PolyModelName" : "Box",
+      "Radius" : 0.25,
+      "ShapeType" : 0,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 9,
+      "VerticesInEachFace" : 4
+    },
+    {
+      "Component Name" : "BossProjectile",
+      "GUID" : 10765104205153683754
+    }
+  ],
+  "ObjID" : 7819411927179723991,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.5, 0.5, 0.5 ]
+  }
+}

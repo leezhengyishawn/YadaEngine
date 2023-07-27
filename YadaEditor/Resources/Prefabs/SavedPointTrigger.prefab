@@ -1,0 +1,102 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "SavedPointTrigger",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "SavedPointTrigger",
+      "Prefab GUID" : 15365403925973948058,
+      "Prefab Name" : "SavedPointTrigger",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 7.0, 0.0, 4.2625255584716797 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 2.0, 2.0, 0.5 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 2.0, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 0.85294109582901001,
+      "ColorZ" : 0.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "",
+      "Model Name" : "",
+      "Type" : 0,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "SavedPointTrigger",
+      "GUID" : 10765104205153683754,
+      "hasActivated" : null,
+      "player1Crossed" : null,
+      "player2Crossed" : null,
+      "spawnPointPlayer1" : 
+      {
+        "Field Name" : "spawnPointPlayer1",
+        "Field Type" : 15,
+        "Field Value" : 5013368187631173682
+      },
+      "spawnPointPlayer2" : 
+      {
+        "Field Name" : "spawnPointPlayer2",
+        "Field Type" : 15,
+        "Field Value" : 5013368187631173683
+      }
+    }
+  ],
+  "ObjID" : 5013463952516972727,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 7.0, 0.0, 4.2625255584716797 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

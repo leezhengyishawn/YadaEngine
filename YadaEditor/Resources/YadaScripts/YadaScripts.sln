@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YadaScripts", "YadaScripts.csproj", "{278EF3DD-92BF-4BC2-97FE-6B7733485DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{278EF3DD-92BF-4BC2-97FE-6B7733485DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278EF3DD-92BF-4BC2-97FE-6B7733485DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278EF3DD-92BF-4BC2-97FE-6B7733485DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278EF3DD-92BF-4BC2-97FE-6B7733485DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B3B0C1D-D659-4F3F-9C96-B8B16B83E54B}
+	EndGlobalSection
+EndGlobal

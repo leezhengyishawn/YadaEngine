@@ -1,0 +1,9 @@
+{
+  "Albedo" : "pineapple_pineapple_BaseColor",
+  "Normal" : "pineapple_pineapple_Normal",
+  "ORM" : "pineapple_pineapple_OcclusionRoughnessMetallic",
+  "RimColorX" : 1.0,
+  "RimColorY" : 1.0,
+  "RimColorZ" : 1.0,
+  "RimWidth" : 0.0
+}

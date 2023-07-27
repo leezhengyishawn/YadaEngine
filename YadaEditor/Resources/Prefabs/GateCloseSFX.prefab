@@ -1,0 +1,41 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "GateCloseSFX",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "GateCloseSFX",
+      "Prefab GUID" : 17483312241872474193,
+      "Prefab Name" : "GateCloseSFX",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "AudioSource",
+      "Dimension" : true,
+      "GUID" : 10483518190252336036,
+      "Loop" : false,
+      "MaxDist" : 10.0,
+      "MinDist" : 1.0,
+      "Mute" : false,
+      "Pitch" : 1.0,
+      "PlayOnStart" : false,
+      "Priority" : 0,
+      "Source GUID" : 14355267619854549041,
+      "Source Name" : "SFX Gate Movement (Long)",
+      "Unique" : false,
+      "Volume" : 4.0
+    }
+  ],
+  "ObjID" : 13859897697990869264,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Item1merchDiag",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Item1merchDiag",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "diagMerchant",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 10493886786793635963,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -300.0, 300.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 400.0, 300.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Item2merchDiag",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Item2merchDiag",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "diagMerchant",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 10493886786793635965,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 200.0, 300.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 400.0, 300.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "shopPrompt",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "shopPrompt",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "shopprompt",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 10493886786793635967,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, -400.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 470.0, 120.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "MerchantUIsprites",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "MerchantUIsprites",
+      "Prefab GUID" : 8435165963223411763,
+      "Prefab Name" : "MerchantUIsprites",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 10493886786793635962,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

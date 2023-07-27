@@ -1,0 +1,99 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "FallingBridge",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "FallingBridge",
+      "Prefab GUID" : 10296123085402489437,
+      "Prefab Name" : "FallingBridge",
+      "Tag" : "Solid"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 10.730995178222656, -0.1000000461935997, -28.850000381469727 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.5, 0.10000000149011612, 1.1000000238418579 ],
+      "CollisionGroup" : 1,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : -2.0841541470417724e-07,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Planks",
+      "Model Name" : "FallingPlatform_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "BrokenBridge",
+      "GUID" : 10765104205153683754,
+      "endingPos" : null,
+      "getRandom" : null,
+      "isSinking" : null,
+      "myTransform" : null,
+      "playerStepped" : null,
+      "shakeValue" : null,
+      "skyPos" : null,
+      "startingPos" : null,
+      "timerShakeCurrent" : null,
+      "timerShakeMaximum" : null,
+      "timerSinkCurrent" : null,
+      "timerSinkMaximum" : null
+    }
+  ],
+  "ObjID" : 7826095579192099046,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 10.730995178222656, -0.1000000461935997, -28.850000381469727 ],
+    "Quaternion" : [ 0.0, 0.7071068286895752, 0.0, 0.7071068286895752 ],
+    "Rotation" : [ -0.0, 90.0, 0.0 ],
+    "Scale" : [ 1.0000673532485962, 1.0000673532485962, 1.0000673532485962 ]
+  }
+}

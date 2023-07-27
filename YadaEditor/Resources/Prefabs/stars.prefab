@@ -1,0 +1,104 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "stars",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "stars",
+      "Prefab GUID" : 17176048025780166662,
+      "Prefab Name" : "stars",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 1.0,
+      "EndColorMaxY" : 0.99999737739562988,
+      "EndColorMaxZ" : 0.99998998641967773,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 0.99999761581420898,
+      "EndColorMinZ" : 0.99998998641967773,
+      "GUID" : 17753737907564724671,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 6,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ScaleRatioX" : 1.0,
+      "ScaleRatioY" : 1.0,
+      "StartColorMaxW" : 0.63921570777893066,
+      "StartColorMaxX" : 1.0,
+      "StartColorMaxY" : 0.99999654293060303,
+      "StartColorMaxZ" : 0.99998998641967773,
+      "StartColorMinW" : 0.82745099067687988,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 0.99999672174453735,
+      "StartColorMinZ" : 0.99998998641967773,
+      "coneAngle" : 20.0,
+      "coneRadius" : 0.5,
+      "constForceMaxX" : 0.0,
+      "constForceMaxY" : -5.0,
+      "constForceMaxZ" : 0.0,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : -2.0,
+      "constForceMinZ" : 0.0,
+      "diskRadius" : 0.40000000596046448,
+      "duration" : 1.0,
+      "edgeLength" : 0.5,
+      "emitterMode" : 1,
+      "finalScaleMax" : 1.2999999523162842,
+      "finalScaleMin" : 0.89999997615814209,
+      "lifeTimeMax" : 0.80000001192092896,
+      "lifeTimeMin" : 0.60000002384185791,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : -5.0,
+      "rotationMin" : 5.0,
+      "rotationSpeedMax" : 1.0,
+      "rotationSpeedMin" : -1.0,
+      "scaleMax" : 0.20000000298023224,
+      "scaleMin" : 0.0,
+      "sphereRadius" : 0.10000000149011612,
+      "startSpeedMax" : 0.69999998807907104,
+      "startSpeedMin" : 0.5,
+      "texture" : "star"
+    },
+    {
+      "Component Name" : "ParticleDestroy",
+      "GUID" : 10765104205153683754,
+      "emitter" : null
+    },
+    {
+      "Component Name" : "AudioSource",
+      "Dimension" : false,
+      "GUID" : 10483518190252336036,
+      "Loop" : false,
+      "MaxDist" : 10.0,
+      "MinDist" : 1.0,
+      "Mute" : false,
+      "Pitch" : 0.80000001192092896,
+      "PlayOnStart" : true,
+      "Priority" : 0,
+      "Source GUID" : 10640511469217310183,
+      "Source Name" : "SFX Player Stun",
+      "Unique" : false,
+      "Volume" : 1.2000000476837158
+    }
+  ],
+  "ObjID" : 5899360356714677078,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 3.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 0.5, 1.0 ]
+  }
+}

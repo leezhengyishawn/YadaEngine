@@ -1,0 +1,467 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BossModel",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BossModel",
+          "Prefab GUID" : 10882834328619912249,
+          "Prefab Name" : "BossModel",
+          "Tag" : "CollisionCheck"
+        },
+        {
+          "Animation Name" : "PlayerPineApple_ClawMachine",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Eggplant",
+          "Model Name" : "BossEggplant_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Animate" : true,
+          "Animate Count" : -1,
+          "AnimateIndex" : 11,
+          "AnimationFiles" : 
+          [
+            {
+              "File" : "PlayerPineApple_walk"
+            },
+            {
+              "File" : "PlayerPineApple_IdleLook"
+            },
+            {
+              "File" : "PlayerPineApple_LeftPunch"
+            },
+            {
+              "File" : "PlayerPineApple_RightPunch"
+            },
+            {
+              "File" : "PlayerPineApple_RightDamaged"
+            },
+            {
+              "File" : "PlayerPineApple_Detect"
+            },
+            {
+              "File" : "PlayerPineApple_Stun"
+            },
+            {
+              "File" : "PlayerPineApple_PunchedUp"
+            },
+            {
+              "File" : "PlayerPineApple_Falling"
+            },
+            {
+              "File" : "PlayerPineApple_BossDefeated"
+            },
+            {
+              "File" : "PlayerPineApple_IdleFront"
+            },
+            {
+              "File" : "PlayerPineApple_ClawMachine"
+            }
+          ],
+          "Component Name" : "Animator",
+          "GUID" : 10963690946328088244,
+          "KeySegment" : 
+          [
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 30,
+              "Loop" : false,
+              "MaxFrame" : 30,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 76,
+              "Loop" : false,
+              "MaxFrame" : 76,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 14,
+              "Loop" : false,
+              "MaxFrame" : 14,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 15,
+              "Loop" : false,
+              "MaxFrame" : 15,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 17,
+              "Loop" : false,
+              "MaxFrame" : 17,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 20,
+              "Loop" : false,
+              "MaxFrame" : 20,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 20,
+              "Loop" : false,
+              "MaxFrame" : 20,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 44,
+              "Loop" : false,
+              "MaxFrame" : 44,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 25,
+              "Loop" : false,
+              "MaxFrame" : 25,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 48,
+              "Loop" : false,
+              "MaxFrame" : 48,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 39,
+              "Loop" : false,
+              "MaxFrame" : 39,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 27,
+              "Loop" : false,
+              "MaxFrame" : 27,
+              "Speed" : 0.5,
+              "StartFrame" : 0
+            }
+          ],
+          "Play" : true,
+          "Transform Animate" : true,
+          "Transform Animate Count" : -1,
+          "Transform AnimateIndex" : -1,
+          "Transform Play" : false
+        }
+      ],
+      "ObjID" : 14248391538752095870,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.014999999664723873, 0.014999999664723873, 0.014999999664723873 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Burrow",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Burrow",
+          "Prefab GUID" : 12124557015967478202,
+          "Prefab Name" : "Burrow",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Rock",
+          "Model Name" : "burrow_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "BurrowBehaviour",
+          "GUID" : 10765104205153683754,
+          "animationTime" : null,
+          "finalScale" : null,
+          "incrementalScale" : null,
+          "linkedEnemy" : null
+        }
+      ],
+      "ObjID" : 14248391538752095871,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, -0.5, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BossSpeechPing",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BossSpeechPing",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "PopUp",
+          "GUID" : 10765104205153683754,
+          "endPos" : null,
+          "endScale" : null,
+          "hangTime" : null,
+          "popUpState" : null,
+          "popupSprite" : null,
+          "scaleVelocity" : null,
+          "speed" : null,
+          "spriteStartPos" : null,
+          "spriteStartScale" : null,
+          "threshold" : null,
+          "timeTaken" : null,
+          "trans" : null,
+          "ui" : null,
+          "velocity" : null
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Scene8.1_2_Eggplant",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : true
+        }
+      ],
+      "ObjID" : 14248391538752095872,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.99999988079071045, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.0010000000474974513, 0.0010000000474974513, 0.0010000000474974513 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Boss",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Boss",
+      "Prefab GUID" : 17847728660490246796,
+      "Prefab Name" : "Boss",
+      "Tag" : "Solid"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 1.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 1.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 1.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 100.0,
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Restitution" : 1.0,
+      "RigidBodyType" : 2,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.30000001192092896, 0.5, 0.30000001192092896 ],
+      "CollisionGroup" : 1,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 0.5, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    },
+    {
+      "Component Name" : "BossBehaviour",
+      "GUID" : 10765104205153683754,
+      "attackCooldownLength" : 
+      {
+        "Field Name" : "attackCooldownLength",
+        "Field Type" : 10,
+        "Field Value" : 3.0
+      },
+      "attackCooldownTimer" : null,
+      "attackForce" : 
+      {
+        "Field Name" : "attackForce",
+        "Field Type" : 10,
+        "Field Value" : 9500.0
+      },
+      "attackRange" : 
+      {
+        "Field Name" : "attackRange",
+        "Field Type" : 10,
+        "Field Value" : 15.0
+      },
+      "bossAnimator" : null,
+      "bossCollider" : null,
+      "bossModel" : 
+      {
+        "Field Name" : "bossModel",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "bossModelFakeVel" : null,
+      "bossSpeechBubbleEntity" : 
+      {
+        "Field Name" : "bossSpeechBubbleEntity",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "bossTransform" : null,
+      "burrowModel" : 
+      {
+        "Field Name" : "burrowModel",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "burrowMoving" : null,
+      "camRef" : 
+      {
+        "Field Name" : "camRef",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "canAttack" : 
+      {
+        "Field Name" : "canAttack",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "defaultAttackForce" : null,
+      "defaultAttackRange" : null,
+      "delayAfterLanding" : null,
+      "delayWaitingBeforePunch" : null,
+      "escapeRange" : null,
+      "escaping" : null,
+      "pausePlayers" : 
+      {
+        "Field Name" : "pausePlayers",
+        "Field Type" : 1,
+        "Field Value" : true
+      },
+      "playBossBurrowSpawn" : 
+      {
+        "Field Name" : "playBossBurrowSpawn",
+        "Field Type" : 1,
+        "Field Value" : true
+      },
+      "spawnWave" : 
+      {
+        "Field Name" : "spawnWave",
+        "Field Type" : 6,
+        "Field Value" : 0
+      },
+      "stunnedTimer" : 
+      {
+        "Field Name" : "stunnedTimer",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      }
+    }
+  ],
+  "ObjID" : 14248391538752095869,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

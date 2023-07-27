@@ -1,0 +1,258 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "NormalBGM",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "NormalBGM",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : true,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source GUID" : 7653504757370283053,
+          "Source Name" : "BGM Normal Forest",
+          "Unique" : false,
+          "Volume" : 0.0
+        }
+      ],
+      "ObjID" : 12811592590168162345,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CombatBGM",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CombatBGM",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : true,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source GUID" : 8220996889750562676,
+          "Source Name" : "BGM Combat Forest",
+          "Unique" : false,
+          "Volume" : 0.0
+        }
+      ],
+      "ObjID" : 12811592590168162346,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "ShopBGM",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "ShopBGM",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : true,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source GUID" : 15577775217188476815,
+          "Source Name" : "BGM Shop",
+          "Unique" : false,
+          "Volume" : 0.0
+        }
+      ],
+      "ObjID" : 12811592590168162347,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CutsceneBGM",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CutsceneBGM",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : true,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source GUID" : 13883140156950179439,
+          "Source Name" : "BGM Cutscene",
+          "Unique" : false,
+          "Volume" : 0.0
+        }
+      ],
+      "ObjID" : 12811592590168162348,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "AudioController",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "AudioController",
+      "Prefab GUID" : 18305184342313740141,
+      "Prefab Name" : "AudioController",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "AudioController",
+      "GUID" : 10765104205153683754,
+      "bgmAudioList" : null,
+      "bgmFadeInSpeed" : 
+      {
+        "Field Name" : "bgmFadeInSpeed",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "bgmFadeOutSpeed" : 
+      {
+        "Field Name" : "bgmFadeOutSpeed",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "bgmMaxVolume" : 
+      {
+        "Field Name" : "bgmMaxVolume",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "bgmStateValue" : 
+      {
+        "Field Name" : "bgmStateValue",
+        "Field Type" : 6,
+        "Field Value" : 0
+      },
+      "combatLevelBGMObject" : 
+      {
+        "Field Name" : "combatLevelBGMObject",
+        "Field Type" : 15,
+        "Field Value" : 12811592590168162346
+      },
+      "cutsceneBGMObject" : 
+      {
+        "Field Name" : "cutsceneBGMObject",
+        "Field Type" : 15,
+        "Field Value" : 12811592590168162348
+      },
+      "hasStartedCombatBGM" : null,
+      "isNotInGameplay" : 
+      {
+        "Field Name" : "isNotInGameplay",
+        "Field Type" : 1,
+        "Field Value" : true
+      },
+      "isTestingBGM" : 
+      {
+        "Field Name" : "isTestingBGM",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "normalLevelBGMObject" : 
+      {
+        "Field Name" : "normalLevelBGMObject",
+        "Field Type" : 15,
+        "Field Value" : 12811592590168162345
+      },
+      "shopBGMObject" : 
+      {
+        "Field Name" : "shopBGMObject",
+        "Field Type" : 15,
+        "Field Value" : 12811592590168162347
+      }
+    }
+  ],
+  "ObjID" : 12811592590168162344,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

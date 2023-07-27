@@ -1,0 +1,95 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Leafparticle",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Leafparticle",
+      "Prefab GUID" : 9489648691597938543,
+      "Prefab Name" : "Leafparticle",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 0.17243367433547974,
+      "EndColorMaxY" : 0.45098036527633667,
+      "EndColorMaxZ" : 0.21339638531208038,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 0.2301037609577179,
+      "EndColorMinY" : 0.5,
+      "EndColorMinZ" : 0.2132352888584137,
+      "GUID" : 17753737907564724671,
+      "ScaleRatioX" : 0.5,
+      "ScaleRatioY" : 1.0,
+      "StartColorMaxW" : 1.0,
+      "StartColorMaxX" : 0.29404407739639282,
+      "StartColorMaxY" : 0.64215683937072754,
+      "StartColorMaxZ" : 0.050365239381790161,
+      "StartColorMinW" : 1.0,
+      "StartColorMinX" : 0.54008078575134277,
+      "StartColorMinY" : 1.0,
+      "StartColorMinZ" : 0.46078431606292725,
+      "boxHalfExtentX" : 10.0,
+      "boxHalfExtentY" : 1.0,
+      "boxHalfExtentZ" : 10.0,
+      "coneAngle" : 90.0,
+      "coneRadius" : 5.0,
+      "constForceMaxX" : -2.0,
+      "constForceMaxY" : -3.0,
+      "constForceMaxZ" : 0.0,
+      "constForceMinX" : -1.0,
+      "constForceMinY" : -2.0,
+      "constForceMinZ" : -2.0,
+      "dirType" : 0,
+      "directionX" : 0.0,
+      "directionY" : 1.0,
+      "directionZ" : 0.0,
+      "diskRadius" : 0.0,
+      "duration" : 5.0,
+      "edgeLength" : 0.0,
+      "emitterMode" : 5,
+      "finalScaleMax" : 0.0,
+      "finalScaleMin" : 0.10000000149011612,
+      "lifeTimeMax" : 4.0,
+      "lifeTimeMin" : 6.0,
+      "looping" : true,
+      "particlePerSecond" : 10.0,
+      "rotateToVelocity" : true,
+      "rotationMax" : -50.0,
+      "rotationMin" : -30.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.10000000149011612,
+      "scaleMax" : 0.30000001192092896,
+      "scaleMin" : 0.20000000298023224,
+      "sphereRadius" : 0.0,
+      "startSpeedMax" : 0.5,
+      "startSpeedMin" : 0.0,
+      "texture" : "leaf"
+    },
+    {
+      "Component Name" : "RainParticleMovement",
+      "GUID" : 10765104205153683754,
+      "cameraTransform" : null,
+      "myTransform" : null,
+      "offsetAmount" : 
+      {
+        "Field Name" : "offsetAmount",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 5.0, 0.0 ]
+      }
+    }
+  ],
+  "ObjID" : 5344854738494031288,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 13.554482460021973, 18.235565185546875, 7.7387046813964844 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "charging",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "charging",
+      "Prefab GUID" : 14443982222155160866,
+      "Prefab Name" : "charging",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 1.0,
+      "EndColorMaxY" : 0.98905801773071289,
+      "EndColorMaxZ" : 0.63235294818878174,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 1.0,
+      "EndColorMinZ" : 0.0,
+      "GUID" : 17753737907564724671,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 20,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ScaleRatioX" : 1.0,
+      "ScaleRatioY" : 1.0,
+      "StartColorMaxW" : 0.7921568751335144,
+      "StartColorMaxX" : 1.0,
+      "StartColorMaxY" : 0.79930794239044189,
+      "StartColorMaxZ" : 0.43137252330780029,
+      "StartColorMinW" : 1.0,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 0.72549021244049072,
+      "StartColorMinZ" : 0.3333333432674408,
+      "coneAngle" : 20.0,
+      "coneRadius" : 0.0,
+      "constForceMaxX" : 0.0,
+      "constForceMaxY" : 0.0,
+      "constForceMaxZ" : 0.0,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : 0.0,
+      "constForceMinZ" : 0.0,
+      "diskRadius" : 2.0,
+      "duration" : 1.0,
+      "edgeLength" : 0.0,
+      "emitterMode" : 4,
+      "finalScaleMax" : 0.20000000298023224,
+      "finalScaleMin" : 0.0,
+      "lifeTimeMax" : 0.30000001192092896,
+      "lifeTimeMin" : 0.20000000298023224,
+      "looping" : true,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : true,
+      "rotationMax" : 0.0,
+      "rotationMin" : 0.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.10000000149011612,
+      "scaleMin" : 0.10000000149011612,
+      "sphereRadius" : 1.2000000476837158,
+      "startSpeedMax" : -5.0,
+      "startSpeedMin" : -3.0,
+      "texture" : "circle"
+    }
+  ],
+  "ObjID" : 3975947523368943834,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -25.672281265258789, 0.89980620145797729, -7.7547059059143066 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

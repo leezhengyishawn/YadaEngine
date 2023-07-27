@@ -1,0 +1,374 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Plank5",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Plank5",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "Plank"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Planks",
+          "Model Name" : "Wooden_Fence_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "PlankBehaviour",
+          "GUID" : 10765104205153683754,
+          "originalPos" : 
+          {
+            "Field Name" : "originalPos",
+            "Field Type" : 13,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "rb" : null,
+          "target" : null,
+          "thrust" : 
+          {
+            "Field Name" : "thrust",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "transform" : null
+        }
+      ],
+      "ObjID" : 2719950295466508474,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 26.16063117980957, 7.0800004005432129, -30.978864669799805 ],
+        "Quaternion" : [ -0.7071068286895752, 0.0, 0.0, 0.7071068286895752 ],
+        "Rotation" : [ null, null, 0.0 ],
+        "Scale" : [ 2.5000505447387695, 1.7500355243682861, 1.0000202655792236 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Plank4",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Plank4",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "Plank"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Planks",
+          "Model Name" : "Wooden_Fence_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "PlankBehaviour",
+          "GUID" : 10765104205153683754,
+          "originalPos" : 
+          {
+            "Field Name" : "originalPos",
+            "Field Type" : 13,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "rb" : null,
+          "target" : null,
+          "thrust" : 
+          {
+            "Field Name" : "thrust",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "transform" : null
+        }
+      ],
+      "ObjID" : 2719950295466508475,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 26.16063117980957, 7.0800004005432129, -29.760046005249023 ],
+        "Quaternion" : [ -0.7071068286895752, 0.0, 0.0, 0.7071068286895752 ],
+        "Rotation" : [ null, null, 0.0 ],
+        "Scale" : [ 2.5000510215759277, 1.7500357627868652, 1.0000203847885132 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Plank3",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Plank3",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "Plank"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Planks",
+          "Model Name" : "Wooden_Fence_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "PlankBehaviour",
+          "GUID" : 10765104205153683754,
+          "originalPos" : 
+          {
+            "Field Name" : "originalPos",
+            "Field Type" : 13,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "rb" : null,
+          "target" : null,
+          "thrust" : 
+          {
+            "Field Name" : "thrust",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "transform" : null
+        }
+      ],
+      "ObjID" : 2719950295466508476,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 26.16063117980957, 7.0800004005432129, -28.542137145996094 ],
+        "Quaternion" : [ -0.7071068286895752, 0.0, 0.0, 0.7071068286895752 ],
+        "Rotation" : [ null, null, 0.0 ],
+        "Scale" : [ 2.5000510215759277, 1.7500357627868652, 1.0000203847885132 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Plank2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Plank2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "Plank"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Planks",
+          "Model Name" : "Wooden_Fence_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "PlankBehaviour",
+          "GUID" : 10765104205153683754,
+          "originalPos" : 
+          {
+            "Field Name" : "originalPos",
+            "Field Type" : 13,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "rb" : null,
+          "target" : null,
+          "thrust" : 
+          {
+            "Field Name" : "thrust",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "transform" : null
+        }
+      ],
+      "ObjID" : 2719950295466508477,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 26.16063117980957, 7.0800004005432129, -27.31756591796875 ],
+        "Quaternion" : [ -0.7071068286895752, 0.0, 0.0, 0.7071068286895752 ],
+        "Rotation" : [ null, null, 0.0 ],
+        "Scale" : [ 2.5000512599945068, 1.7500358819961548, 1.0000205039978027 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Plank1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Plank1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "Plank"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Planks",
+          "Model Name" : "Wooden_Fence_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "PlankBehaviour",
+          "GUID" : 10765104205153683754,
+          "originalPos" : 
+          {
+            "Field Name" : "originalPos",
+            "Field Type" : 13,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "rb" : null,
+          "target" : null,
+          "thrust" : 
+          {
+            "Field Name" : "thrust",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "transform" : null
+        }
+      ],
+      "ObjID" : 2719950295466508478,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 26.16063117980957, 7.0800004005432129, -26.100173950195313 ],
+        "Quaternion" : [ -0.7071068286895752, 0.0, 0.0, 0.7071068286895752 ],
+        "Rotation" : [ null, null, 0.0 ],
+        "Scale" : [ 2.5000514984130859, 1.7500361204147339, 1.0000206232070923 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Bridge",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Bridge",
+      "Prefab GUID" : 9603092001420044656,
+      "Prefab Name" : "Bridge",
+      "Tag" : "Plank"
+    },
+    {
+      "BoxHalfExtent" : [ 2.7000000476837158, 3.0999999046325684, 0.05000000074505806 ],
+      "CollisionGroup" : 6,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : false,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "Offset" : [ -2.7000000476837158, 3.0999999046325684, 0.05000000074505806 ],
+      "Radius" : -1.4194236097817605e-29,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 1.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : false,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 1.0,
+      "Position" : [ 26.16063117980957, 7.0799999237060547, -26.100622177124023 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "Component Name" : "PlankBehaviour",
+      "GUID" : 10765104205153683754,
+      "originalPos" : 
+      {
+        "Field Name" : "originalPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "rb" : null,
+      "target" : null,
+      "thrust" : 
+      {
+        "Field Name" : "thrust",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "transform" : null
+    }
+  ],
+  "ObjID" : 2719950291171541177,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 26.16063117980957, 7.0799999237060547, -26.100622177124023 ],
+    "Quaternion" : [ -0.7071068286895752, 0.0, 0.0, 0.7071068286895752 ],
+    "Rotation" : [ -90.0, 0.0, 0.0 ],
+    "Scale" : [ 2.5, 1.75, 1.0 ]
+  }
+}

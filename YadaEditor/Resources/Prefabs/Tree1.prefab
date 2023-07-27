@@ -1,0 +1,76 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Tree1",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Tree1",
+      "Prefab GUID" : 13802488378907670668,
+      "Prefab Name" : "Tree1",
+      "Tag" : "Ground"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Tree1",
+      "Model Name" : "Tree1_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -33.653484344482422, 0.0, 44.891597747802734 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : true
+    },
+    {
+      "BoxHalfExtent" : [ 0.20000000298023224, 1.0, 0.20000000298023224 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "Offset" : [ 0.0, 0.5, 0.0 ],
+      "Radius" : 0.25999999046325684,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    }
+  ],
+  "ObjID" : 7767253921646510688,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -33.653484344482422, 0.0, 44.891597747802734 ],
+    "Quaternion" : [ 0.0, 0.26938962936401367, 0.0, 0.9630313515663147 ],
+    "Rotation" : [ -0.0, 31.255901336669922, 0.0 ],
+    "Scale" : [ 0.78200012445449829, 0.78200006484985352, 0.78200012445449829 ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Particle",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Particle",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "ParticleEmitter",
+          "EndColorMaxW" : 0.0,
+          "EndColorMaxX" : 0.55882352590560913,
+          "EndColorMaxY" : 0.48779648542404175,
+          "EndColorMaxZ" : 0.28762975335121155,
+          "EndColorMinW" : 0.0,
+          "EndColorMinX" : 0.60294115543365479,
+          "EndColorMinY" : 0.53538471460342407,
+          "EndColorMinZ" : 0.31920415163040161,
+          "GUID" : 17753737907564724671,
+          "Particle Burst" : 
+          [
+            {
+              "BurstCount" : 5,
+              "BurstTime" : 0.0
+            }
+          ],
+          "ScaleRatioX" : 1.0,
+          "ScaleRatioY" : 1.0,
+          "StartColorMaxW" : 0.76470589637756348,
+          "StartColorMaxX" : 0.64705884456634521,
+          "StartColorMaxY" : 0.5586313009262085,
+          "StartColorMaxZ" : 0.39331027865409851,
+          "StartColorMinW" : 1.0,
+          "StartColorMinX" : 0.64705884456634521,
+          "StartColorMinY" : 0.58077347278594971,
+          "StartColorMinZ" : 0.44405999779701233,
+          "boxHalfExtentX" : 1.0,
+          "boxHalfExtentY" : 0.5,
+          "boxHalfExtentZ" : 2.0,
+          "coneAngle" : 20.0,
+          "coneRadius" : 0.5,
+          "constForceMaxX" : -0.5,
+          "constForceMaxY" : 3.0,
+          "constForceMaxZ" : 1.0,
+          "constForceMinX" : 0.5,
+          "constForceMinY" : 1.0,
+          "constForceMinZ" : 0.5,
+          "dirType" : 0,
+          "directionX" : 1.0,
+          "directionY" : 0.0,
+          "directionZ" : 0.0,
+          "diskRadius" : 0.30000001192092896,
+          "duration" : 1.0,
+          "edgeLength" : 2.0,
+          "emitterMode" : 5,
+          "finalScaleMax" : 1.5,
+          "finalScaleMin" : 0.80000001192092896,
+          "lifeTimeMax" : 0.60000002384185791,
+          "lifeTimeMin" : 0.30000001192092896,
+          "looping" : true,
+          "particlePerSecond" : 50.0,
+          "rotateToVelocity" : false,
+          "rotationMax" : 30.0,
+          "rotationMin" : -30.0,
+          "rotationSpeedMax" : 0.5,
+          "rotationSpeedMin" : 0.20000000298023224,
+          "scaleMax" : 0.5,
+          "scaleMin" : 0.30000001192092896,
+          "sphereRadius" : 0.10000000149011612,
+          "startSpeedMax" : 0.40000000596046448,
+          "startSpeedMin" : 0.20000000298023224,
+          "texture" : "cloud"
+        }
+      ],
+      "ObjID" : 5350388979948586426,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -4.76837158203125e-07, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.7071068286895752, 0.0, 0.7071068286895752 ],
+        "Rotation" : [ -0.0, 90.0, 0.0 ],
+        "Scale" : [ 1.000002384185791, 1.000002384185791, 1.000002384185791 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "GateParticle",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "GateParticle",
+      "Prefab GUID" : 16251325990112434188,
+      "Prefab Name" : "GateParticle",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 5350388975653619129,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -4.76837158203125e-07, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.7071068286895752, 0.0, 0.7071068286895752 ],
+    "Rotation" : [ 0.0, 90.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

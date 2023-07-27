@@ -1,0 +1,297 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Text_quit1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Text_quit1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 0.5,
+          "colorY" : 0.085784316062927246,
+          "colorZ" : 0.23197883367538452,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "The application will be closed and all progress will be lost.",
+          "textHeight" : 1.0,
+          "xMaxSize" : -1.0
+        }
+      ],
+      "ObjID" : 6741729505045381160,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -429.00003051757812, 77.599998474121094, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 32.5, 19.271997451782227, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Text_quit2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Text_quit2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 0.5,
+          "colorY" : 0.085784316062927246,
+          "colorZ" : 0.23197883367538452,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "Do you wish to continue?",
+          "textHeight" : 1.0,
+          "xMaxSize" : 15.0
+        }
+      ],
+      "ObjID" : 6741729505045381161,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -195.00001525878906, 16.279996871948242, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 32.5, 19.271997451782227, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Header_Quit",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Header_Quit",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Header_Quit",
+          "type" : 0
+        }
+      ],
+      "ObjID" : 6741729505045381162,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 5.0, 379.99993896484375, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 920.0, 270.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Button_No",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Button_No",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Confirm_No_Hover",
+          "texture" : "Confirm_No",
+          "type" : 1
+        },
+        {
+          "Component Name" : "MainMenuButton",
+          "GUID" : 10765104205153683754,
+          "click" : 
+          {
+            "Field Name" : "click",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "hover" : 
+          {
+            "Field Name" : "hover",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "hoverSFXcomp" : null,
+          "hoverSFXent" : 
+          {
+            "Field Name" : "hoverSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413837
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381163,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -200.0, -149.99996948242188, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 328.99996948242188, 100.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Button_Yes",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Button_Yes",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Confirm_Yes_Hover",
+          "texture" : "Confirm_Yes",
+          "type" : 1
+        },
+        {
+          "Component Name" : "MainMenuButton",
+          "GUID" : 10765104205153683754,
+          "click" : 
+          {
+            "Field Name" : "click",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "hover" : 
+          {
+            "Field Name" : "hover",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "hoverSFXcomp" : null,
+          "hoverSFXent" : 
+          {
+            "Field Name" : "hoverSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413837
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381164,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 200.0, -149.99996948242188, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 328.99996948242188, 100.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Panel_Quit",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Panel_Quit",
+      "Prefab GUID" : 7101760556717691013,
+      "Prefab Name" : "Panel_Quit",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "UIComponent",
+      "GUID" : 15327929856128578838,
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "fillHori" : 1.0,
+      "fillMode" : 0,
+      "fillVert" : 1.0,
+      "hightlightedTexture" : "",
+      "texture" : "Menu_MMQuit",
+      "type" : 0
+    }
+  ],
+  "ObjID" : 6741729505045381159,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, -10.0, -0.0099999997764825821 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1300.0, 876.0, 1.0 ]
+  }
+}

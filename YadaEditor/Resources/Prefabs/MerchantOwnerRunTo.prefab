@@ -1,0 +1,25 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "MerchantOwnerRunTo",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "MerchantOwnerRunTo",
+      "Prefab GUID" : 4029940738482330240,
+      "Prefab Name" : "MerchantOwnerRunTo",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 4246697919496847442,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 45.0, 0.40000000596046448, -106.25 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

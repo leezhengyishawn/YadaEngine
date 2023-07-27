@@ -1,0 +1,379 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "EnemyMeshMelee",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EnemyMeshMelee",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "MasterAnim_040221_0100_IdleLook",
+          "ColorW" : 1.0,
+          "ColorX" : 0.58823525905609131,
+          "ColorY" : 0.52038806676864624,
+          "ColorZ" : 0.2998846173286438,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Potato",
+          "Model Name" : "EnemyPotato_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Animate" : true,
+          "Animate Count" : -1,
+          "AnimateIndex" : 1,
+          "AnimationFiles" : 
+          [
+            {
+              "File" : "MasterAnim_040221_0100_walk"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_IdleLook"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_run"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_ChargeIdle"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_ChargeWalk"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_PunchRight"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_PunchFail"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_PunchedUp"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Falling"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Land"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Stun"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Drown"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_DamagedRight"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_ClawMachine"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Wave"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Detect"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_EnemyDeath"
+            },
+            {
+              "File" : "MasterAnim_040221_0100_Roll"
+            }
+          ],
+          "Component Name" : "Animator",
+          "GUID" : 10963690946328088244,
+          "KeySegment" : 
+          [
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 120,
+              "Loop" : false,
+              "MaxFrame" : 120,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 333,
+              "Loop" : false,
+              "MaxFrame" : 333,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 99,
+              "Loop" : false,
+              "MaxFrame" : 99,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 68,
+              "Loop" : false,
+              "MaxFrame" : 68,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 121,
+              "Loop" : false,
+              "MaxFrame" : 121,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 67,
+              "Loop" : false,
+              "MaxFrame" : 67,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 109,
+              "Loop" : false,
+              "MaxFrame" : 109,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 117,
+              "Loop" : false,
+              "MaxFrame" : 117,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 137,
+              "Loop" : false,
+              "MaxFrame" : 137,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 90,
+              "Loop" : false,
+              "MaxFrame" : 90,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 65,
+              "Loop" : false,
+              "MaxFrame" : 65,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 114,
+              "Loop" : false,
+              "MaxFrame" : 114,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 71,
+              "Loop" : false,
+              "MaxFrame" : 71,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 140,
+              "Loop" : false,
+              "MaxFrame" : 140,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 214,
+              "Loop" : false,
+              "MaxFrame" : 214,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 79,
+              "Loop" : false,
+              "MaxFrame" : 79,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 71,
+              "Loop" : false,
+              "MaxFrame" : 71,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 33,
+              "Loop" : false,
+              "MaxFrame" : 33,
+              "Speed" : 1.0,
+              "StartFrame" : 0
+            }
+          ],
+          "Play" : true,
+          "Transform Animate" : true,
+          "Transform Animate Count" : -1,
+          "Transform AnimateIndex" : -1,
+          "Transform Play" : false
+        }
+      ],
+      "ObjID" : 13648202376333493817,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -38.606586456298828, 7.7600007057189941, -43.465682983398438 ],
+        "Quaternion" : [ 0.0, 1.0, 0.0, -4.3711388286737929e-08 ],
+        "Rotation" : [ -0.0, 180.0, 0.0 ],
+        "Scale" : [ 0.010000004433095455, 0.01000005379319191, 0.010000004433095455 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "EnemyRolling",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "EnemyRolling",
+      "Prefab GUID" : 17287900465003805220,
+      "Prefab Name" : "EnemyRolling",
+      "Tag" : "Solid"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 1.0,
+      "Position" : [ -38.606590270996094, 8.0, -43.465682983398438 ],
+      "Restitution" : 0.0099999997764825821,
+      "RigidBodyType" : 2,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : true
+    },
+    {
+      "BoxHalfExtent" : [ 0.10000000149011612, 0.10000000149011612, 0.10000000149011612 ],
+      "CollisionGroup" : 1,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 6,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 6,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 0.10000000149011612, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 0.2800000011920929,
+      "ShapeType" : 0,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 8,
+      "VerticesInEachFace" : 4
+    },
+    {
+      "Component Name" : "RollingEnemyBehaviour",
+      "GUID" : 10765104205153683754,
+      "currLifeTimer" : null,
+      "currRot" : null,
+      "enemyTransform" : null,
+      "fired" : null,
+      "lifeSpan" : 
+      {
+        "Field Name" : "lifeSpan",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "looking" : null,
+      "movementVec" : null,
+      "punchForceNormal" : null,
+      "punchForceSpecial" : null,
+      "rBody" : null,
+      "rollSpeed" : 
+      {
+        "Field Name" : "rollSpeed",
+        "Field Type" : 10,
+        "Field Value" : 10.0
+      },
+      "speed" : 
+      {
+        "Field Name" : "speed",
+        "Field Type" : 10,
+        "Field Value" : 2.0
+      },
+      "targetPosition" : null,
+      "transform" : null,
+      "useCustomForce" : null
+    }
+  ],
+  "ObjID" : 13648202376333493818,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -38.606590270996094, 8.0, -43.465682983398438 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.80000001192092896, 0.80000001192092896, 0.80000001192092896 ]
+  }
+}

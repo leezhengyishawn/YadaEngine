@@ -1,0 +1,2653 @@
+{
+  "AlwaysRender" : false,
+  "AlwaysUpdate" : false,
+  "AudioManager" : 
+  {
+    "GUID" : 6120135246819778296,
+    "MasterMute" : false,
+    "MasterPause" : false,
+    "MasterVol" : 1.0,
+    "System Name" : "AudioManager"
+  },
+  "CameraManager" : 
+  {
+    "GUID" : 10602408877764505757,
+    "MainCameraHND" : 18446744073709551615,
+    "System Name" : "CameraManager"
+  },
+  "ColliderManager" : 
+  {
+    "GUID" : 2551449125819467508,
+    "System Name" : "ColliderManager"
+  },
+  "LightManager" : 
+  {
+    "GUID" : 4831942114513106854,
+    "MainDirLightHND" : 18446744073709551615,
+    "ShadowPadding" : 0.0,
+    "System Name" : "LightManager"
+  },
+  "Objects" : 
+  [
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "BG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c5_BG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900225,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ -79.952774047851562, -2.384185791015625e-07, -0.004999999888241291 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 2080.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "MG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "MG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c5_MG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900226,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ -79.952774047851562, 0.070333361625671387, -0.0030000000260770321 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 2080.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "Lighting",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "Lighting",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c5_Lighting",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900227,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ -79.952774047851562, -2.384185791015625e-07, -0.0024999999441206455 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 2080.0, 1080.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "e1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "e1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 13844479533314867687,
+          "Source Name" : "BGM Normal Mangrove",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14570873557534900224,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.047225475311279297, -2.384185791015625e-07, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "Subtitle1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Subtitle1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "The Vegetable kingdom restored back to its roots, and the Vegetables were sane again.",
+          "textHeight" : 1.0,
+          "xMaxSize" : -1.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 18403823319092208755,
+          "Source Name" : "Resolution_1",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14570873557534900228,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -689.75, -460.0, 10.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 35.0, 20.0, 1.0 ]
+      }
+    },
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "BG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c6_BG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900230,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.004999999888241291 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "MG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "MG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c6_MG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900231,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 60.0, -0.0030000000260770321 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1000.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "FG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "FG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 0.79901957511901855,
+              "colorY" : 0.54834675788879395,
+              "colorZ" : 0.67368316650390625,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c6_FG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900232,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, -150.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 2000.0, 1110.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "FGC",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "FGC",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c6_FG_confetti",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900233,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.00054073333740234375, 100.0, -0.0020000000949949026 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1000.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "e2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "e2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 13883140156950179439,
+          "Source Name" : "BGM Cutscene",
+          "Unique" : false,
+          "Volume" : 0.60000002384185791
+        }
+      ],
+      "ObjID" : 14570873557534900229,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "BG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 0.69880533218383789,
+              "colorY" : 0.38703861832618713,
+              "colorZ" : 0.86764705181121826,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c3_BG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900235,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.004999999888241291 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "Vignette",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "Vignette",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 0.99998998641967773,
+              "colorZ" : 0.99998998641967773,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "VignetteWithoutTop",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900236,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "FG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "FG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 0.47308576107025146,
+              "colorY" : 0.42027106881141663,
+              "colorZ" : 0.77941179275512695,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "c2_FG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900237,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ -0.015296459197998047, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : 
+            [
+              4.3711388286737929e-08,
+              4.3711388286737929e-08,
+              1.0,
+              -1.910685465164705e-15
+            ],
+            "Rotation" : [ -5.0089556680177338e-06, 5.0089556680177338e-06, 180.0 ],
+            "Scale" : [ 2000.0, 1150.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "e3",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "e3",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 0.60000002384185791,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 5229397186368159762,
+          "Source Name" : "BGM Combat Mangrove",
+          "Unique" : false,
+          "Volume" : 0.40000000596046448
+        }
+      ],
+      "ObjID" : 14570873557534900234,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.010494709014892578, -1.430511474609375e-06, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BG",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "BG",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_BG",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900239,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.004999999888241291 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : false,
+              "Component Name" : "cred01",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred01",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_01",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900240,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : false,
+              "Component Name" : "cred02",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred02",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_02",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900241,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.050897121429443359, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "cred1",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred1",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_1",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900242,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "cred2",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred2",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_2",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900243,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "cred3",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred3",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_3",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900244,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "cred4",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred4",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_4",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900245,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "cred5",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred5",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_5",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900246,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : false,
+              "Component Name" : "cred61",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred61",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_61",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900247,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : false,
+              "Component Name" : "cred62",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "cred62",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "cred_62",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900248,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ -0.22214365005493164, 0.0, -0.0010000000474974513 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1920.0, 1080.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "credits",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "credits",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 15577775217188476815,
+          "Source Name" : "BGM Shop",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14570873557534900238,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "WhiteScreen",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "WhiteScreen",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "whiteTexture",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14570873557534900249,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -0.031482696533203125, 0.031422138214111328, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1920.0, 1080.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BlackScreen",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BlackScreen",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.0,
+          "colorY" : 0.0,
+          "colorZ" : 0.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "whiteTexture",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14570873557534900250,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.050891578197479248, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1920.0, 1080.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "Subtitle2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Subtitle2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "The two Fruit Knights were highly praised and rewarded by the Fruit king.",
+          "textHeight" : 1.0,
+          "xMaxSize" : -1.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 1,
+          "Source GUID" : 18403824418603836966,
+          "Source Name" : "Resolution_2",
+          "Unique" : false,
+          "Volume" : 1.2000000476837158
+        }
+      ],
+      "ObjID" : 14570873557534900251,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -585.0, -460.0, 10.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 35.0, 20.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "Subtitle2.2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Subtitle2.2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "As for the Vegetable king... well,",
+          "textHeight" : 1.0,
+          "xMaxSize" : -1.0
+        }
+      ],
+      "ObjID" : 14570873557534900252,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -258.0, -460.0, 10.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 35.0, 20.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "Subtitle3",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Subtitle3",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "...he had a great fall and all his seeds could not put him back together again.",
+          "textHeight" : 1.0,
+          "xMaxSize" : -1.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 18403825518115465177,
+          "Source Name" : "Resolution_3",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14570873557534900253,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -598.625, -460.0, 10.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 35.0, 20.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CinematicManager",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CinematicManager",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "EndCinematics",
+          "GUID" : 10765104205153683754,
+          "blackScreen" : 
+          {
+            "Field Name" : "blackScreen",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900250
+          },
+          "blackScreenUI" : 
+          {
+            "Field Name" : "blackScreenUI",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900255
+          },
+          "cTimer" : null,
+          "cred01" : 
+          {
+            "Field Name" : "cred01",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900240
+          },
+          "cred02" : 
+          {
+            "Field Name" : "cred02",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900241
+          },
+          "cred1" : 
+          {
+            "Field Name" : "cred1",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900242
+          },
+          "cred2" : 
+          {
+            "Field Name" : "cred2",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900243
+          },
+          "cred3" : 
+          {
+            "Field Name" : "cred3",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900244
+          },
+          "cred4" : 
+          {
+            "Field Name" : "cred4",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900245
+          },
+          "cred5" : 
+          {
+            "Field Name" : "cred5",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900246
+          },
+          "cred61" : 
+          {
+            "Field Name" : "cred61",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900247
+          },
+          "cred62" : 
+          {
+            "Field Name" : "cred62",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900248
+          },
+          "credBG" : 
+          {
+            "Field Name" : "credBG",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900239
+          },
+          "credSequence" : null,
+          "credits" : 
+          {
+            "Field Name" : "credits",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900238
+          },
+          "creditsBGM" : null,
+          "delayDurationCurrent" : null,
+          "delayDurationMaximum" : null,
+          "e1BG" : 
+          {
+            "Field Name" : "e1BG",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900225
+          },
+          "e1BGM" : null,
+          "e1Lighting" : 
+          {
+            "Field Name" : "e1Lighting",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900227
+          },
+          "e1MG" : 
+          {
+            "Field Name" : "e1MG",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900226
+          },
+          "e1Particle" : 
+          {
+            "Field Name" : "e1Particle",
+            "Field Type" : 15,
+            "Field Value" : 14570873561829867568
+          },
+          "e1StartPos" : null,
+          "e1VO" : null,
+          "e2BG" : 
+          {
+            "Field Name" : "e2BG",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900230
+          },
+          "e2BGM" : null,
+          "e2FG" : 
+          {
+            "Field Name" : "e2FG",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900232
+          },
+          "e2FGConfetti" : 
+          {
+            "Field Name" : "e2FGConfetti",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900233
+          },
+          "e2FGConfettiStartPos" : null,
+          "e2FGConfettiStartScale" : null,
+          "e2FGStartPos" : null,
+          "e2FGStartScale" : null,
+          "e2MG" : 
+          {
+            "Field Name" : "e2MG",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900231
+          },
+          "e2MGStartPos" : null,
+          "e2MGStartScale" : null,
+          "e2Particle" : 
+          {
+            "Field Name" : "e2Particle",
+            "Field Type" : 15,
+            "Field Value" : 14570873561829867569
+          },
+          "e2VO" : null,
+          "e3BGM" : null,
+          "e3Particle" : 
+          {
+            "Field Name" : "e3Particle",
+            "Field Type" : 15,
+            "Field Value" : 14570873561829867570
+          },
+          "e3VO" : null,
+          "epilogue1" : 
+          {
+            "Field Name" : "epilogue1",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900224
+          },
+          "epilogue2" : 
+          {
+            "Field Name" : "epilogue2",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900229
+          },
+          "epilogue3" : 
+          {
+            "Field Name" : "epilogue3",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900234
+          },
+          "maxTimer" : null,
+          "playedSkip" : null,
+          "player1ReadySkip" : null,
+          "player2ReadySkip" : null,
+          "rainBGM" : null,
+          "scene" : null,
+          "skipTimer" : null,
+          "subtitle1" : 
+          {
+            "Field Name" : "subtitle1",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900228
+          },
+          "subtitle2" : 
+          {
+            "Field Name" : "subtitle2",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900251
+          },
+          "subtitle22" : 
+          {
+            "Field Name" : "subtitle22",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900252
+          },
+          "subtitle3" : 
+          {
+            "Field Name" : "subtitle3",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900253
+          },
+          "swap" : null,
+          "swapTimer" : null,
+          "transition" : null,
+          "transitionScreen" : 
+          {
+            "Field Name" : "transitionScreen",
+            "Field Type" : 15,
+            "Field Value" : 14570873561829867571
+          },
+          "ui1" : null,
+          "ui2" : null,
+          "ui3" : null,
+          "velocity" : null,
+          "whiteScreen" : 
+          {
+            "Field Name" : "whiteScreen",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900249
+          }
+        }
+      ],
+      "ObjID" : 14570873557534900254,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -5.9604644775390625e-08, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BlackOverlay",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BlackOverlay",
+          "Prefab GUID" : 11654943072126013324,
+          "Prefab Name" : "BlackOverlay",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.0,
+          "colorY" : 0.0,
+          "colorZ" : 0.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "whiteTexture",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14570873557534900255,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 5.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 2000.0, 2000.0, 1.0 ]
+      }
+    },
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "NormalBGM",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "NormalBGM",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "AudioSource",
+              "Dimension" : false,
+              "GUID" : 10483518190252336036,
+              "Loop" : true,
+              "MaxDist" : 10.0,
+              "MinDist" : 1.0,
+              "Mute" : false,
+              "Pitch" : 1.0,
+              "PlayOnStart" : true,
+              "Priority" : 0,
+              "Source GUID" : 7653504757370283053,
+              "Source Name" : "BGM Normal Forest",
+              "Unique" : false,
+              "Volume" : 0.0
+            }
+          ],
+          "ObjID" : 14570873557534900257,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "CombatBGM",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "CombatBGM",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "AudioSource",
+              "Dimension" : false,
+              "GUID" : 10483518190252336036,
+              "Loop" : true,
+              "MaxDist" : 10.0,
+              "MinDist" : 1.0,
+              "Mute" : false,
+              "Pitch" : 1.0,
+              "PlayOnStart" : true,
+              "Priority" : 0,
+              "Source GUID" : 8220996889750562676,
+              "Source Name" : "BGM Combat Forest",
+              "Unique" : false,
+              "Volume" : 0.0
+            }
+          ],
+          "ObjID" : 14570873557534900258,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "ShopBGM",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "ShopBGM",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "AudioSource",
+              "Dimension" : false,
+              "GUID" : 10483518190252336036,
+              "Loop" : true,
+              "MaxDist" : 10.0,
+              "MinDist" : 1.0,
+              "Mute" : false,
+              "Pitch" : 1.0,
+              "PlayOnStart" : true,
+              "Priority" : 0,
+              "Source GUID" : 15577775217188476815,
+              "Source Name" : "BGM Shop",
+              "Unique" : false,
+              "Volume" : 0.0
+            }
+          ],
+          "ObjID" : 14570873557534900259,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "CutsceneBGM",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "CutsceneBGM",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "AudioSource",
+              "Dimension" : false,
+              "GUID" : 10483518190252336036,
+              "Loop" : true,
+              "MaxDist" : 10.0,
+              "MinDist" : 1.0,
+              "Mute" : false,
+              "Pitch" : 1.0,
+              "PlayOnStart" : true,
+              "Priority" : 0,
+              "Source GUID" : 13883140156950179439,
+              "Source Name" : "BGM Cutscene",
+              "Unique" : false,
+              "Volume" : 0.0
+            }
+          ],
+          "ObjID" : 14570873557534900260,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.047591686248779297, 0.0, 0.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "TransitionBGM",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "TransitionBGM",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "AudioSource",
+              "Dimension" : false,
+              "GUID" : 10483518190252336036,
+              "Loop" : true,
+              "MaxDist" : 10.0,
+              "MinDist" : 1.0,
+              "Mute" : false,
+              "Pitch" : 1.0,
+              "PlayOnStart" : true,
+              "Priority" : 0,
+              "Source GUID" : 7653504757370283053,
+              "Source Name" : "BGM Normal Forest",
+              "Unique" : false,
+              "Volume" : 0.0
+            }
+          ],
+          "ObjID" : 14570873557534900261,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.047591686248779297, 0.0, 0.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioController",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "AudioController",
+          "Prefab GUID" : 18305184342313740141,
+          "Prefab Name" : "AudioController",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "AudioController",
+          "GUID" : 10765104205153683754,
+          "bgmAudioList" : null,
+          "bgmFadeInSpeed" : null,
+          "bgmFadeOutSpeed" : null,
+          "bgmMaxVolume" : null,
+          "bgmStateValue" : null,
+          "combatLevelBGMObject" : 
+          {
+            "Field Name" : "combatLevelBGMObject",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900258
+          },
+          "cutsceneBGMObject" : 
+          {
+            "Field Name" : "cutsceneBGMObject",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900260
+          },
+          "fadeAllBGM" : null,
+          "hasStartedCombatBGM" : null,
+          "isNotInGameplay" : 
+          {
+            "Field Name" : "isNotInGameplay",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "isTestingBGM" : 
+          {
+            "Field Name" : "isTestingBGM",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "normalLevelBGMObject" : 
+          {
+            "Field Name" : "normalLevelBGMObject",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900257
+          },
+          "shopBGMObject" : 
+          {
+            "Field Name" : "shopBGMObject",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900259
+          },
+          "transitionBGMObject" : 
+          {
+            "Field Name" : "transitionBGMObject",
+            "Field Type" : 15,
+            "Field Value" : 14570873557534900261
+          }
+        }
+      ],
+      "ObjID" : 14570873557534900256,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SkipPrompt",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "SkipPrompt",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 0.94117647409439087,
+              "colorZ" : 0.60392159223556519,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Skip_Text",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900263,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 745.0, -515.0, 4.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 55.0, 20.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "NextPrompt",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "NextPrompt",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 0.94117647409439087,
+              "colorZ" : 0.60392159223556519,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Next_Text",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900264,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 745.0, -515.0, 4.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 55.0, 20.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "B",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "B",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Skip_B",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900265,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 910.0, -515.0, 4.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 60.0, 35.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "v",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "v",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Next_V",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873557534900266,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 805.0, -515.0, 3.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 35.0, 35.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "p",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "p",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Next_P",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873561829867563,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 853.0, -515.0, 3.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 35.0, 35.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "p1",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "p1",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Skip_P1Icon",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873561829867564,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 805.0, -515.0, 4.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 45.0, 45.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "p2",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "p2",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "Skip_P2Icon",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873561829867565,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 853.0, -515.0, 4.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 45.0, 45.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BlackBarTop",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "BlackBarTop",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 9.9999999747524271e-07,
+              "colorY" : 9.9999897429370321e-07,
+              "colorZ" : 9.9998999303352321e-07,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "whiteTexture",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873561829867566,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, 585.0, 2.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 2000.0, 200.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BlackBarBot",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "BlackBarBot",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Component Name" : "UIComponent",
+              "GUID" : 15327929856128578838,
+              "colorW" : 1.0,
+              "colorX" : 9.9999999747524271e-07,
+              "colorY" : 9.9999897429370321e-07,
+              "colorZ" : 9.9998999303352321e-07,
+              "fillHori" : 1.0,
+              "fillMode" : 0,
+              "fillVert" : 1.0,
+              "hightlightedTexture" : "",
+              "texture" : "whiteTexture",
+              "type" : 0,
+              "worldSize" : true,
+              "worldUI" : false
+            }
+          ],
+          "ObjID" : 14570873561829867567,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 0.0, -585.0, 2.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 2000.0, 200.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Cutscene Canvas",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Cutscene Canvas",
+          "Prefab GUID" : 3028087146187912735,
+          "Prefab Name" : "Cutscene Canvas",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "CutsceneButton",
+          "GUID" : 10765104205153683754,
+          "blackBarHideOffset" : null,
+          "isNotInGameplay" : 
+          {
+            "Field Name" : "isNotInGameplay",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "transitionSpeed" : null
+        }
+      ],
+      "ObjID" : 14570873557534900262,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 5.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "e1Particles",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "e1Particles",
+          "Prefab GUID" : 5718374180812333006,
+          "Prefab Name" : "p2Particles",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "ParticleEmitter",
+          "EndColorMaxW" : 0.0,
+          "EndColorMaxX" : 0.03442658856511116,
+          "EndColorMaxY" : 0.014994227327406406,
+          "EndColorMaxZ" : 0.23529410362243652,
+          "EndColorMinW" : 0.0,
+          "EndColorMinX" : 0.038247920572757721,
+          "EndColorMinY" : 0.01585928350687027,
+          "EndColorMinZ" : 0.26960784196853638,
+          "GUID" : 17753737907564724671,
+          "ScaleRatioX" : 1.0,
+          "ScaleRatioY" : 3.0,
+          "StartColorMaxW" : 0.64313727617263794,
+          "StartColorMaxX" : 0.2057243138551712,
+          "StartColorMaxY" : 0.069276243448257446,
+          "StartColorMaxZ" : 0.45588237047195435,
+          "StartColorMinW" : 0.56862747669219971,
+          "StartColorMinX" : 0.13662050664424896,
+          "StartColorMinY" : 0.071366772055625916,
+          "StartColorMinZ" : 0.44117647409439087,
+          "boxHalfExtentX" : 1.0,
+          "boxHalfExtentY" : 1.0,
+          "boxHalfExtentZ" : 1.0,
+          "coneAngle" : 10.0,
+          "coneRadius" : 900.0,
+          "constForceMaxX" : 0.0,
+          "constForceMaxY" : -200.0,
+          "constForceMaxZ" : 0.0,
+          "constForceMinX" : 0.0,
+          "constForceMinY" : -100.0,
+          "constForceMinZ" : 0.0,
+          "dirType" : 0,
+          "directionX" : 0.0,
+          "directionY" : 1.0,
+          "directionZ" : 0.0,
+          "diskRadius" : 0.0,
+          "duration" : 1.0,
+          "edgeLength" : 1920.0,
+          "emitterMode" : 1,
+          "finalScaleMax" : 20.0,
+          "finalScaleMin" : 15.0,
+          "lifeTimeMax" : 2.0,
+          "lifeTimeMin" : 1.0,
+          "looping" : true,
+          "particlePerSecond" : 400.0,
+          "rotateToVelocity" : true,
+          "rotationMax" : 0.0,
+          "rotationMin" : 0.0,
+          "rotationSpeedMax" : 0.0,
+          "rotationSpeedMin" : 0.0,
+          "scaleMax" : 7.0,
+          "scaleMin" : 5.0,
+          "sphereRadius" : 0.0,
+          "startSpeedMax" : 2000.0,
+          "startSpeedMin" : 1500.0,
+          "texture" : "circle",
+          "uiMode" : true
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : true,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source GUID" : 13822611806630999907,
+          "Source Name" : "BGM_Drizzling",
+          "Unique" : false,
+          "Volume" : 0.89999997615814209
+        }
+      ],
+      "ObjID" : 14570873561829867568,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 100.0, 600.0, 1.0 ],
+        "Quaternion" : [ 0.86602544784545898, 0.0, 0.0, 0.49999997019767761 ],
+        "Rotation" : [ 120.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "e2Particles",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "e2Particles",
+          "Prefab GUID" : 5718374180812333006,
+          "Prefab Name" : "p2Particles",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "ParticleEmitter",
+          "EndColorMaxW" : 0.0,
+          "EndColorMaxX" : 0.38388738036155701,
+          "EndColorMaxY" : 0.33044981956481934,
+          "EndColorMaxZ" : 0.93627452850341797,
+          "EndColorMinW" : 0.0,
+          "EndColorMinX" : 0.91666668653488159,
+          "EndColorMinY" : 0.26960784196853638,
+          "EndColorMinZ" : 0.7073248028755188,
+          "GUID" : 17753737907564724671,
+          "ScaleRatioX" : 2.0,
+          "ScaleRatioY" : 1.0,
+          "StartColorMaxW" : 0.64313727617263794,
+          "StartColorMaxX" : 0.85784316062927246,
+          "StartColorMaxY" : 0.1788409948348999,
+          "StartColorMaxZ" : 0.088307365775108337,
+          "StartColorMinW" : 1.0,
+          "StartColorMinX" : 1.0,
+          "StartColorMinY" : 0.94901961088180542,
+          "StartColorMinZ" : 0.55294120311737061,
+          "boxHalfExtentX" : 1.0,
+          "boxHalfExtentY" : 1.0,
+          "boxHalfExtentZ" : 1.0,
+          "coneAngle" : 10.0,
+          "coneRadius" : 900.0,
+          "constForceMaxX" : 20.0,
+          "constForceMaxY" : -30.0,
+          "constForceMaxZ" : 20.0,
+          "constForceMinX" : -20.0,
+          "constForceMinY" : -40.0,
+          "constForceMinZ" : -20.0,
+          "dirType" : 0,
+          "directionX" : 0.0,
+          "directionY" : 1.0,
+          "directionZ" : 0.0,
+          "diskRadius" : 0.0,
+          "duration" : 1.0,
+          "edgeLength" : 800.0,
+          "emitterMode" : 3,
+          "finalScaleMax" : 15.0,
+          "finalScaleMin" : 10.0,
+          "lifeTimeMax" : 10.0,
+          "lifeTimeMin" : 5.0,
+          "looping" : true,
+          "particlePerSecond" : 6.0,
+          "rotateToVelocity" : false,
+          "rotationMax" : -20.0,
+          "rotationMin" : 20.0,
+          "rotationSpeedMax" : 0.0,
+          "rotationSpeedMin" : 0.0,
+          "scaleMax" : 20.0,
+          "scaleMin" : 15.0,
+          "sphereRadius" : 0.0,
+          "startSpeedMax" : 0.0,
+          "startSpeedMin" : 0.0,
+          "texture" : "square",
+          "uiMode" : true
+        }
+      ],
+      "ObjID" : 14570873561829867569,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 600.0, 1.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "e3Particles",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "e3Particles",
+          "Prefab GUID" : 5718374180812333006,
+          "Prefab Name" : "p2Particles",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "ParticleEmitter",
+          "EndColorMaxW" : 0.0,
+          "EndColorMaxX" : 0.075788162648677826,
+          "EndColorMaxY" : 0.085528105497360229,
+          "EndColorMaxZ" : 0.40686273574829102,
+          "EndColorMinW" : 0.0,
+          "EndColorMinX" : 0.21337871253490448,
+          "EndColorMinY" : 0.058847561478614807,
+          "EndColorMinZ" : 0.38725489377975464,
+          "GUID" : 17753737907564724671,
+          "Particle Burst" : 
+          [
+            {
+              "BurstCount" : 15,
+              "BurstTime" : 0.0
+            }
+          ],
+          "ScaleRatioX" : 1.0,
+          "ScaleRatioY" : 1.0,
+          "StartColorMaxW" : 0.35294118523597717,
+          "StartColorMaxX" : 0.19215686619281769,
+          "StartColorMaxY" : 0.019607843831181526,
+          "StartColorMaxZ" : 0.10980392247438431,
+          "StartColorMinW" : 0.46666666865348816,
+          "StartColorMinX" : 0.20784313976764679,
+          "StartColorMinY" : 0.035294119268655777,
+          "StartColorMinZ" : 0.090196080505847931,
+          "boxHalfExtentX" : 1.0,
+          "boxHalfExtentY" : 1.0,
+          "boxHalfExtentZ" : 1.0,
+          "coneAngle" : 10.0,
+          "coneRadius" : 900.0,
+          "constForceMaxX" : 20.0,
+          "constForceMaxY" : 30.0,
+          "constForceMaxZ" : 20.0,
+          "constForceMinX" : -20.0,
+          "constForceMinY" : 20.0,
+          "constForceMinZ" : -20.0,
+          "dirType" : 0,
+          "directionX" : 0.0,
+          "directionY" : 1.0,
+          "directionZ" : 0.0,
+          "diskRadius" : 0.0,
+          "duration" : 1.0,
+          "edgeLength" : 960.0,
+          "emitterMode" : 3,
+          "finalScaleMax" : 1000.0,
+          "finalScaleMin" : 600.0,
+          "lifeTimeMax" : 3.0,
+          "lifeTimeMin" : 2.0,
+          "looping" : false,
+          "particlePerSecond" : 0.0,
+          "rotateToVelocity" : false,
+          "rotationMax" : -20.0,
+          "rotationMin" : 20.0,
+          "rotationSpeedMax" : 0.0,
+          "rotationSpeedMin" : 0.0,
+          "scaleMax" : 600.0,
+          "scaleMin" : 100.0,
+          "sphereRadius" : 0.0,
+          "startSpeedMax" : 300.0,
+          "startSpeedMin" : 200.0,
+          "texture" : "cloud",
+          "uiMode" : true
+        }
+      ],
+      "ObjID" : 14570873561829867570,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, -500.0, 1.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "TransitionOverlay",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "TransitionOverlay",
+          "Prefab GUID" : 15697224717803695502,
+          "Prefab Name" : "WhiteOverlay",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.95686274766921997,
+          "colorY" : 0.96078431606292725,
+          "colorZ" : 0.86666667461395264,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "whiteTexture",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14570873561829867571,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, 5.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 2000.0, 2000.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "GUID" : 15843531986037666521,
+    "Gravity" : [ 0.0, 0.0, 0.0 ],
+    "System Name" : "PhysicsManager"
+  },
+  "SceneName" : "CinematicEpilogue",
+  "SceneRenderer" : 
+  {
+    "AABBTree" : false,
+    "AmbientB" : 0.045000001788139343,
+    "AmbientG" : 0.045000001788139343,
+    "AmbientR" : 0.045000001788139343,
+    "BloomBlurTimes" : 1,
+    "BloomIntensity" : 1.0,
+    "BloomOffsetU" : 0,
+    "BloomThreshold" : 0.94999998807907104,
+    "CelShaded" : 4,
+    "FogColorX" : 1.0,
+    "FogColorY" : 1.0,
+    "FogColorZ" : 1.0,
+    "FogFar" : 50.0,
+    "FogNear" : 30.0,
+    "GUID" : 15451388070354018988,
+    "RenderBloom" : false,
+    "RenderFog" : false,
+    "RenderShadow" : false,
+    "SkyBoxHND" : 18446744073709551615,
+    "System Name" : "SceneRenderer",
+    "WireFrame" : false
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "g2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "g2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Misc",
+          "Model Name" : "Misc_Grass2_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 7585711727128347431,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 14.748752593994141, -0.24772182106971741, 0.0 ],
+        "Quaternion" : [ 0.0, 0.90896517038345337, 0.0, -0.41687211394309998 ],
+        "Rotation" : [ -0.0, 130.7254638671875, 0.0 ],
+        "Scale" : [ 0.99999994039535522, 1.0, 0.99999994039535522 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "g2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "g2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Misc",
+          "Model Name" : "Misc_Grass2_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 7585485223438058278,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 15.42528247833252, -0.24772182106971741, 1.1455254554748535 ],
+        "Quaternion" : [ 0.0, -0.76794171333312988, 0.0, 0.64051973819732666 ],
+        "Rotation" : [ -0.0, 100.33885192871094, 0.0 ],
+        "Scale" : [ 0.99999988079071045, 0.99999988079071045, 0.99999988079071045 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "g1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "g1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Misc",
+          "Model Name" : "Misc_Grass1_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 7585274550997222179,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 16.747123718261719, -0.24772182106971741, 0.0 ],
+        "Quaternion" : [ 0.0, 0.76882874965667725, 0.0, 0.63945472240447998 ],
+        "Rotation" : [ -0.0, 79.502342224121094, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "r",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "r",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Misc",
+          "Model Name" : "Misc_Rock_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 7583077275793359652,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 16.439977645874023, -0.24772182106971741, 0.0 ],
+        "Quaternion" : [ 0.0, 0.90896528959274292, 0.0, -0.41687208414077759 ],
+        "Rotation" : [ -0.0, 130.72547912597656, 0.0 ],
+        "Scale" : [ 0.50999993085861206, 0.50999993085861206, 0.50999993085861206 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "f",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "f",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Misc",
+          "Model Name" : "Misc_Flower1_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 7580615808561185564,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 15.359962463378906, -0.24772182106971741, 1.0 ],
+        "Quaternion" : [ 0.0, 0.91052901744842529, 0.0, -0.41344526410102844 ],
+        "Rotation" : [ -0.0, 131.1571044921875, 0.0 ],
+        "Scale" : [ 1.0, 1.0000001192092896, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Misc",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Misc",
+      "Prefab GUID" : 352987963141364937,
+      "Prefab Name" : "Misc",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 7585841417960817448,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 13.439932823181152, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

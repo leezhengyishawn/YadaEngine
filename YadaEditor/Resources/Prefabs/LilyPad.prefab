@@ -1,0 +1,142 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "LilyPad",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "LilyPad",
+      "Prefab GUID" : 15915902265595931722,
+      "Prefab Name" : "LilyPad",
+      "Tag" : "Solid"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 1.0, 0.10000000149011612, 1.1000000238418579 ],
+      "CollisionGroup" : 1,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "Offset" : [ 0.0, 0.0, 0.0 ],
+      "Radius" : -202149040.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 0.029761791229248047,
+      "ColorY" : 1.0,
+      "ColorZ" : 0.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Planks",
+      "Model Name" : "FallingPlatform_Model",
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "LilyPad",
+      "GUID" : 10765104205153683754,
+      "endingPos" : 
+      {
+        "Field Name" : "endingPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "getRandom" : null,
+      "isSinking" : 
+      {
+        "Field Name" : "isSinking",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "myTransform" : null,
+      "playerCount" : 
+      {
+        "Field Name" : "playerCount",
+        "Field Type" : 6,
+        "Field Value" : 0
+      },
+      "playerExited" : 
+      {
+        "Field Name" : "playerExited",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "shakeValue" : 
+      {
+        "Field Name" : "shakeValue",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "startingPos" : 
+      {
+        "Field Name" : "startingPos",
+        "Field Type" : 13,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "timerShakeCurrent" : 
+      {
+        "Field Name" : "timerShakeCurrent",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "timerShakeMaximum" : 
+      {
+        "Field Name" : "timerShakeMaximum",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "timerSinkCurrent" : 
+      {
+        "Field Name" : "timerSinkCurrent",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "timerSinkMaximum" : 
+      {
+        "Field Name" : "timerSinkMaximum",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      }
+    }
+  ],
+  "ObjID" : 11240001547607736435,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 2.0, 1.0, 1.0 ]
+  }
+}

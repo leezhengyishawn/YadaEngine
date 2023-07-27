@@ -1,0 +1,409 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SkipPrompt",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "SkipPrompt",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 0.94117647409439087,
+          "colorZ" : 0.60392159223556519,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Skip_Text",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162335,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 745.0, -515.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 55.0, 20.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "NextPrompt",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "NextPrompt",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 0.94117647409439087,
+          "colorZ" : 0.60392159223556519,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Next_Text",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162336,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 745.0, -515.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 55.0, 20.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "B",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "B",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Skip_B",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162337,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 910.0, -515.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 60.0, 35.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "v",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "v",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Next_V",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162338,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 805.0, -515.0, 3.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 35.0, 35.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "p",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "p",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Next_P",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162339,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 853.0, -515.0, 3.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 35.0, 35.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "p1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "p1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Skip_P1Icon",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162340,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 805.0, -515.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 45.0, 45.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "p2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "p2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Skip_P2Icon",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162341,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 853.0, -515.0, 4.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 45.0, 45.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BlackBarTop",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BlackBarTop",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 9.9999999747524271e-07,
+          "colorY" : 9.9999897429370321e-07,
+          "colorZ" : 9.9998999303352321e-07,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "whiteTexture",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162342,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 585.0, 2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 2000.0, 200.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BlackBarBot",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BlackBarBot",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 9.9999999747524271e-07,
+          "colorY" : 9.9999897429370321e-07,
+          "colorZ" : 9.9998999303352321e-07,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "whiteTexture",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 12811592590168162343,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, -585.0, 2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 2000.0, 200.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Cutscene Canvas",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Cutscene Canvas",
+      "Prefab GUID" : 3028087146187912735,
+      "Prefab Name" : "Cutscene Canvas",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "CutsceneButton",
+      "GUID" : 10765104205153683754,
+      "blackBarHideOffset" : null,
+      "isNotInGameplay" : 
+      {
+        "Field Name" : "isNotInGameplay",
+        "Field Type" : 1,
+        "Field Value" : true
+      },
+      "transitionSpeed" : null
+    }
+  ],
+  "ObjID" : 12811592585873195038,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 5.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

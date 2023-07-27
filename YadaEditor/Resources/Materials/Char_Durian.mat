@@ -1,0 +1,9 @@
+{
+  "Albedo" : "durian_durian_BaseColor",
+  "Normal" : "durian_durian_Normal",
+  "ORM" : "durian_durian_OcclusionRoughnessMetallic",
+  "RimColorX" : 1.0,
+  "RimColorY" : 1.0,
+  "RimColorZ" : 1.0,
+  "RimWidth" : 0.0
+}

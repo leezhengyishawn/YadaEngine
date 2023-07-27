@@ -1,0 +1,144 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "ProjectileMesh",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "ProjectileMesh",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.99998998641967773,
+          "ColorY" : 0.99999618530273438,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Carrot",
+          "Model Name" : "CarrotProjectile_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 4636611238359467207,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -0.53245466947555542, 11.911280632019043, 2.0458228588104248 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.5, 1.5, 1.5 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "EnemyProjectile",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "EnemyProjectile",
+      "Prefab GUID" : 8128938167352882984,
+      "Prefab Name" : "EnemyProjectile",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "AngularAxisLock" : [ 1, 1, 1 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : false,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ -0.53245466947555542, 11.911280632019043, 2.0458228588104248 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 2,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.10000000149011612, 0.10000000149011612, 0.10000000149011612 ],
+      "CollisionGroup" : 2,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 0,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 0,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : true,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 0.20000000298023224, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 0.25999999046325684,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 0,
+      "VerticesInEachFace" : 0
+    },
+    {
+      "Component Name" : "EnemyProjectileBehaviour",
+      "GUID" : 10765104205153683754,
+      "currRot" : null,
+      "dir" : null,
+      "enemyTransform" : null,
+      "lifetime" : 
+      {
+        "Field Name" : "lifetime",
+        "Field Type" : 10,
+        "Field Value" : 5.0
+      },
+      "myMesh" : 
+      {
+        "Field Name" : "myMesh",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "rotateSpeed" : 
+      {
+        "Field Name" : "rotateSpeed",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "speed" : 
+      {
+        "Field Name" : "speed",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "targetPlayer" : null,
+      "targetPosition" : null
+    }
+  ],
+  "ObjID" : 4636611238359467206,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -0.53245466947555542, 11.911280632019043, 2.0458228588104248 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

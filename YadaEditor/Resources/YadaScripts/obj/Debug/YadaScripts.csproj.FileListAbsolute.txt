@@ -1,0 +1,6 @@
+D:\Year 3 Sem 2 - 2020 Spring\GAM 350\1Touch SVN\Executable\YadaScripts.dll
+D:\Year 3 Sem 2 - 2020 Spring\GAM 350\1Touch SVN\Resources\YadaScripts\obj\Debug\YadaScripts.csproj.CoreCompileInputs.cache
+D:\Year 3 Sem 2 - 2020 Spring\GAM 350\1Touch SVN\Resources\YadaScripts\obj\Debug\YadaScripts.csproj.CopyComplete
+D:\Year 3 Sem 2 - 2020 Spring\GAM 350\1Touch SVN\Resources\YadaScripts\obj\Debug\YadaScripts.dll
+D:\Year 3 Sem 2 - 2020 Spring\GAM 350\1Touch SVN\Resources\YadaScripts\obj\Debug\YadaScripts.pdb
+D:\Year 3 Sem 2 - 2020 Spring\GAM 350\1Touch SVN\Executable\YadaScripts.pdb

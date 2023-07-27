@@ -1,0 +1,1289 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BossParent",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "BossParent",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        }
+      ],
+      "ObjID" : 14189566592924255838,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, -16.0 ],
+        "Quaternion" : [ 0.0, 1.0, 0.0, -4.3711388286737929e-08 ],
+        "Rotation" : [ -0.0, 180.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook00",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook00",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255839,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 3.0, -16.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation00",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation00",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 2.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255840,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 5.0, -5.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook01",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook01",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255841,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 2.0, -20.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation01",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation01",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255842,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 7.0, -8.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook02",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook02",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255843,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, -29.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation02",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation02",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255844,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 11.0, -12.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook03",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook03",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255845,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 0.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation03",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation03",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255846,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 9.0, -20.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook04",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook04",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255847,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 2.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation04",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation04",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255848,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 11.0, -20.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook05",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook05",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255849,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 6.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation05",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation05",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255850,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 11.0, -20.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook06",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook06",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255851,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 14.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation06",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation06",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255852,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 11.0, -20.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook07",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook07",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255853,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 14.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation07",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation07",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : true
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255854,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 8.0, -17.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook08",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook08",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255855,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 14.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation08",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation08",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : true
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255856,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -16.0, 12.0, -18.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook09",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook09",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255857,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 14.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation09",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation09",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : true
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255858,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 20.0, 10.0, -18.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosLook10",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosLook10",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.0,
+          "ColorY" : 2.4318695068359375e-05,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        }
+      ],
+      "ObjID" : 14189566592924255859,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 14.0, -33.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "CameraPosStation10",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "CameraPosStation10",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 0.73529386520385742,
+          "ColorY" : 0.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "",
+          "Model Name" : "",
+          "Type" : 0,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "CutsceneTimer",
+          "GUID" : 10765104205153683754,
+          "freezeCamAngle" : 
+          {
+            "Field Name" : "freezeCamAngle",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "freezeCamMovement" : 
+          {
+            "Field Name" : "freezeCamMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "shotTiming" : 
+          {
+            "Field Name" : "shotTiming",
+            "Field Type" : 10,
+            "Field Value" : 1.0
+          },
+          "teleportShot" : 
+          {
+            "Field Name" : "teleportShot",
+            "Field Type" : 1,
+            "Field Value" : true
+          }
+        }
+      ],
+      "ObjID" : 14189566592924255860,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 14.0, 2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "CutsceneTriggerEnding",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "CutsceneTriggerEnding",
+      "Prefab GUID" : 10865915271406656104,
+      "Prefab Name" : "CutsceneTriggerCinematic",
+      "Tag" : "CollisionCheck"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 0.47549021244049072,
+      "ColorZ" : 0.47549021244049072,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "",
+      "Model Name" : "Durian_Model",
+      "Type" : 0,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "CutsceneTrigger",
+      "GUID" : 10765104205153683754,
+      "allowButtonPress" : null,
+      "cameraPosFollow" : 
+      {
+        "Field Name" : "cameraPosFollow",
+        "Field Type" : 15,
+        "Field Value" : 14189566592924255838
+      },
+      "controlledByTime" : 
+      {
+        "Field Name" : "controlledByTime",
+        "Field Type" : 1,
+        "Field Value" : true
+      },
+      "cutsceneActivated" : null,
+      "cutsceneDurationCurrent" : null,
+      "cutsceneDurationMaximum" : null,
+      "delayDurationCurrent" : null,
+      "delayDurationMaximum" : null,
+      "dialogueBehaviour" : null,
+      "enteredPlayer" : null,
+      "hasBeenTriggered" : null,
+      "hasEndedDialogue" : 
+      {
+        "Field Name" : "hasEndedDialogue",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "hasResetButtons" : null,
+      "ignoreThisTrigger" : 
+      {
+        "Field Name" : "ignoreThisTrigger",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "isFrozenCam" : null,
+      "listOfLookObjects" : null,
+      "listOfStationObjects" : null,
+      "mainCamera" : null,
+      "merchantBehaviour" : null,
+      "player1Behaviour" : null,
+      "player1ReadyNext" : null,
+      "player1ReadySkip" : null,
+      "player2Behaviour" : null,
+      "player2ReadyNext" : null,
+      "player2ReadySkip" : null,
+      "shotValue" : null,
+      "showDurationCurrent" : null,
+      "showDurationMaximum" : null,
+      "startTimer" : null,
+      "startingRotation" : null,
+      "transitionLevelTrigger" : null,
+      "unlockableBehaviour" : null
+    }
+  ],
+  "ObjID" : 14189566588629288541,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, -16.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,1234 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Button_Fullscreen",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Button_Fullscreen",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_Button",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "TwoChooseOneScript",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "otherButton" : 
+          {
+            "Field Name" : "otherButton",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413845
+          }
+        }
+      ],
+      "ObjID" : 6741729500750413844,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 52.090782165527344, -52.047988891601562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 234.00001525878906, 70.080001831054688, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Button_Windowed",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Button_Windowed",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_Button",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "TwoChooseOneScript",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "otherButton" : 
+          {
+            "Field Name" : "otherButton",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413844
+          }
+        }
+      ],
+      "ObjID" : 6741729500750413845,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 266.5908203125, -52.047988891601562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 234.00001525878906, 70.080001831054688, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Text_ScreenMode",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Text_ScreenMode",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 0.5,
+          "colorY" : 0.085784316062927246,
+          "colorZ" : 0.23197883367538452,
+          "font" : "main",
+          "spaceSize" : 2.7999999523162842,
+          "text" : "Fullscreen Windowed",
+          "textHeight" : 1.0,
+          "xMaxSize" : -1.0
+        }
+      ],
+      "ObjID" : 6741729500750413846,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -32.409217834472656, -65.188003540039062, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 32.5, 19.271997451782227, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_0",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_0",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Confirm_Empty",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729500750413847,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -90.909217834472656, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729500750413848,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -38.909217834472656, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729500750413849,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 5.2907824516296387, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_3",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_3",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381146,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 49.490776062011719, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_4",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_4",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381147,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 93.690780639648438, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_5",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_5",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381148,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 137.89077758789062, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_6",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_6",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381149,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 182.09078979492188, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_7",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_7",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381150,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 224.99078369140625, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_8",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_8",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381151,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 267.89077758789062, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_9",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_9",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381152,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 310.790771484375, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "volume_10",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "volume_10",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "Settings_VolumeBar",
+          "texture" : "Confirm_Empty",
+          "type" : 1
+        },
+        {
+          "Component Name" : "CheckboxButton",
+          "GUID" : 10765104205153683754,
+          "clickSFXcomp" : null,
+          "clickSFXent" : 
+          {
+            "Field Name" : "clickSFXent",
+            "Field Type" : 15,
+            "Field Value" : 6741729500750413838
+          },
+          "framePassed" : null,
+          "isClicked" : 
+          {
+            "Field Name" : "isClicked",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isHovered" : 
+          {
+            "Field Name" : "isHovered",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "isToggledOn" : 
+          {
+            "Field Name" : "isToggledOn",
+            "Field Type" : 1,
+            "Field Value" : false
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381153,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 353.6907958984375, 86.360000610351562, -0.0099999997764825821 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 41.600002288818359, 43.799999237060547, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Title_Settings",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Title_Settings",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "Header_Settings",
+          "type" : 0
+        }
+      ],
+      "ObjID" : 6741729505045381154,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 0.0, 357.91940307617188, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 929.49993896484375, 239.14797973632812, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Cursor_Left",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Cursor_Left",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "CursorHorizontal",
+          "type" : 0
+        },
+        {
+          "Component Name" : "Selector",
+          "GUID" : 10765104205153683754,
+          "currLeft" : null,
+          "iMaxTimer" : null,
+          "iTimer" : null,
+          "idleFlag" : null,
+          "idlePos1" : null,
+          "idlePos2" : null,
+          "index" : 
+          {
+            "Field Name" : "index",
+            "Field Type" : 6,
+            "Field Value" : 0
+          },
+          "leftPointer" : 
+          {
+            "Field Name" : "leftPointer",
+            "Field Type" : 15,
+            "Field Value" : 6741729505045381155
+          },
+          "leftPos" : null,
+          "limit" : 
+          {
+            "Field Name" : "limit",
+            "Field Type" : 6,
+            "Field Value" : 1
+          },
+          "maxTimer" : null,
+          "pastIndex" : null,
+          "rightPointer" : 
+          {
+            "Field Name" : "rightPointer",
+            "Field Type" : 15,
+            "Field Value" : 6741729505045381156
+          },
+          "timer" : null,
+          "yStep" : 
+          {
+            "Field Name" : "yStep",
+            "Field Type" : 10,
+            "Field Value" : 0.15999999642372131
+          },
+          "yValue" : 
+          {
+            "Field Name" : "yValue",
+            "Field Type" : 10,
+            "Field Value" : 0.10999999940395355
+          }
+        }
+      ],
+      "ObjID" : 6741729505045381155,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -479.60919189453125, 86.360000610351562, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.99998974800109863, -0.0045253206044435501 ],
+        "Rotation" : [ -0.0, 0.0, -179.51936340332031 ],
+        "Scale" : [ 72.004844665527344, 72.007156372070312, 1.0000016689300537 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "Cursor_Right",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "Cursor_Right",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "CursorHorizontal",
+          "type" : 0
+        }
+      ],
+      "ObjID" : 6741729505045381156,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 450.00003051757812, 86.360000610351562, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 72.0, 72.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Panel_Settings",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Panel_Settings",
+      "Prefab GUID" : 7389546211808197627,
+      "Prefab Name" : "Panel_Settings",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "UIComponent",
+      "GUID" : 15327929856128578838,
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "fillHori" : 1.0,
+      "fillMode" : 0,
+      "fillVert" : 1.0,
+      "hightlightedTexture" : "",
+      "texture" : "Menu_Settings",
+      "type" : 0
+    },
+    {
+      "Component Name" : "SettingsControl",
+      "GUID" : 10765104205153683754,
+      "analogDown" : null,
+      "analogLeft" : null,
+      "analogRight" : null,
+      "analogTimer" : null,
+      "analogUp" : null,
+      "buttonFullScreen" : 
+      {
+        "Field Name" : "buttonFullScreen",
+        "Field Type" : 15,
+        "Field Value" : 6741729500750413844
+      },
+      "buttonWindowed" : 
+      {
+        "Field Name" : "buttonWindowed",
+        "Field Type" : 15,
+        "Field Value" : 6741729500750413845
+      },
+      "currentScr" : null,
+      "currentVol" : null,
+      "isFullscreen" : null,
+      "selectorDisplay" : 
+      {
+        "Field Name" : "selectorDisplay",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381155
+      },
+      "settingsState" : null,
+      "volBubble0" : 
+      {
+        "Field Name" : "volBubble0",
+        "Field Type" : 15,
+        "Field Value" : 6741729500750413847
+      },
+      "volBubble1" : 
+      {
+        "Field Name" : "volBubble1",
+        "Field Type" : 15,
+        "Field Value" : 6741729500750413848
+      },
+      "volBubble10" : 
+      {
+        "Field Name" : "volBubble10",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381153
+      },
+      "volBubble2" : 
+      {
+        "Field Name" : "volBubble2",
+        "Field Type" : 15,
+        "Field Value" : 6741729500750413849
+      },
+      "volBubble3" : 
+      {
+        "Field Name" : "volBubble3",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381146
+      },
+      "volBubble4" : 
+      {
+        "Field Name" : "volBubble4",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381147
+      },
+      "volBubble5" : 
+      {
+        "Field Name" : "volBubble5",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381148
+      },
+      "volBubble6" : 
+      {
+        "Field Name" : "volBubble6",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381149
+      },
+      "volBubble7" : 
+      {
+        "Field Name" : "volBubble7",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381150
+      },
+      "volBubble8" : 
+      {
+        "Field Name" : "volBubble8",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381151
+      },
+      "volBubble9" : 
+      {
+        "Field Name" : "volBubble9",
+        "Field Type" : 15,
+        "Field Value" : 6741729505045381152
+      },
+      "volPercent" : null,
+      "volumeArray" : 
+      {
+        "Field Name" : "volumeArray",
+        "Field Size" : 0,
+        "Field Type" : 15
+      }
+    }
+  ],
+  "ObjID" : 6741729500750413843,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.09078216552734375, -10.0, -0.0099999997764825821 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1300.0, 876.0, 1.0 ]
+  }
+}

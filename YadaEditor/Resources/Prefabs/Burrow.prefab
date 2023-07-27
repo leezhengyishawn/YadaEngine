@@ -1,0 +1,48 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Burrow",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Burrow",
+      "Prefab GUID" : 12124557015967478202,
+      "Prefab Name" : "Burrow",
+      "Tag" : "None"
+    },
+    {
+      "Animation Name" : "",
+      "ColorW" : 1.0,
+      "ColorX" : 1.0,
+      "ColorY" : 1.0,
+      "ColorZ" : 1.0,
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Burrrrow",
+      "Model Name" : "burrow_Model",
+      "ShowShadow" : true,
+      "Type" : 2,
+      "UV TilingX" : 1.0,
+      "UV TilingY" : 1.0
+    },
+    {
+      "Component Name" : "BurrowBehaviour",
+      "GUID" : 10765104205153683754,
+      "animationTime" : null,
+      "finalScale" : null,
+      "incrementalScale" : null,
+      "linkedEnemy" : null
+    }
+  ],
+  "ObjID" : 14661758793549874742,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 4.0, 1.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

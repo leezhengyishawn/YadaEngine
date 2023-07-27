@@ -1,0 +1,490 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "MerchantProfile",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantProfile",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneMerchant2",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14300663077450810014,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 800.0, -260.0, -2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 420.0, 430.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "MerchantDialogue",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantDialogue",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.21568627655506134,
+          "colorY" : 0.5058823823928833,
+          "colorZ" : 0.070588238537311554,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneDialogueColour",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14300663077450810015,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 350.0, -320.0, -1.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 600.0, 300.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "MerchantText1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantText1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "Knights! You will be helping us to rid the iodine pollution?! Here are minerals for each of you, so choose carefully!",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 0.89999997615814209,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 15402935412781583329,
+          "Source Name" : "LadyFinger_2",
+          "Unique" : false,
+          "Volume" : 0.89999997615814209
+        }
+      ],
+      "ObjID" : 14300663077450810016,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 120.0, -280.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "DurianProfileCharge",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianProfileCharge",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneDurian",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14300663077450810017,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -750.0, -275.0, -2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 450.0, 400.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "DurianDialogueCharge",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianDialogueCharge",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.45882353186607361,
+          "colorY" : 0.71764707565307617,
+          "colorZ" : 0.20392157137393951,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneDialogueColour",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14300663077450810018,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -290.0, -320.0, -1.0 ],
+        "Quaternion" : [ 0.0, 1.0, 0.0, 0.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 600.0, 300.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "DurianTextCharge1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianTextCharge1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "Oh, you guys are here! We need to get up to the switch to open the gate.",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 14679888291120121973,
+          "Source Name" : "Durian_1.1_1",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14300663077450810019,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -485.0, -300.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "DurianTextCharge2",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianTextCharge2",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "Here, take this vitamin to punch harder! Do not worry, you will be fine.",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 14679884992585237340,
+          "Source Name" : "Durian_1.1_2",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14300663077450810020,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -485.0, -300.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "DurianProfileEnd",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianProfileEnd",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneDurian",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14300663077450810021,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -750.0, -275.0, -2.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 450.0, 400.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "DurianDialogueEnd",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianDialogueEnd",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UIComponent",
+          "GUID" : 15327929856128578838,
+          "colorW" : 0.0,
+          "colorX" : 0.45882353186607361,
+          "colorY" : 0.71764707565307617,
+          "colorZ" : 0.20392157137393951,
+          "fillHori" : 1.0,
+          "fillMode" : 0,
+          "fillVert" : 1.0,
+          "hightlightedTexture" : "",
+          "texture" : "cutsceneDialogueColour",
+          "type" : 0,
+          "worldSize" : true,
+          "worldUI" : false
+        }
+      ],
+      "ObjID" : 14300663077450810022,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -290.0, -320.0, -1.0 ],
+        "Quaternion" : [ 0.0, 1.0, 0.0, 0.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 600.0, 300.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : false,
+          "Component Name" : "DurianTextEnd1",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "DurianTextEnd1",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "None"
+        },
+        {
+          "Component Name" : "UITextComponent",
+          "GUID" : 3975848133977114219,
+          "alignment" : 0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "main",
+          "spaceSize" : 0.5,
+          "text" : "Aye! My knights! I have been waiting for you! Well, time to go!",
+          "textHeight" : 2.2000000476837158,
+          "xMaxSize" : 16.0
+        },
+        {
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "GUID" : 10483518190252336036,
+          "Loop" : false,
+          "MaxDist" : 10.0,
+          "MinDist" : 1.0,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source GUID" : 11337240781709281162,
+          "Source Name" : "Durian_3",
+          "Unique" : false,
+          "Volume" : 1.0
+        }
+      ],
+      "ObjID" : 14300663077450810023,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ -485.0, -290.0, 0.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 30.0, 18.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Cutscene Dialogue Durian and Merchant",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Cutscene Dialogue Durian and Merchant",
+      "Prefab GUID" : 18047171686197808529,
+      "Prefab Name" : "Cutscene Dialogue Durian and Merchant",
+      "Tag" : "None"
+    }
+  ],
+  "ObjID" : 14300663073155842717,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

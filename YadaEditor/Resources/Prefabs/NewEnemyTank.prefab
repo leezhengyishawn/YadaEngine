@@ -1,0 +1,350 @@
+{
+  "Child" : 
+  [
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "EnemyMesh_Onion",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "EnemyMesh_Onion",
+          "Prefab GUID" : 12206059586366010592,
+          "Prefab Name" : "EnemyMesh_Onion",
+          "Tag" : "None"
+        },
+        {
+          "Animation Name" : "EnemyCarrot_Idle_Untriggered",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "onion",
+          "Model Name" : "EnemyOnion_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Animate" : true,
+          "Animate Count" : -1,
+          "AnimateIndex" : 3,
+          "AnimationFiles" : 
+          [
+            {
+              "File" : "EnemyCarrot_Idle_Untriggered"
+            },
+            {
+              "File" : "EnemyCarrot_OnionTriggered"
+            },
+            {
+              "File" : "EnemyCarrot_Idle_Triggered"
+            },
+            {
+              "File" : "EnemyCarrot_OnionAttack"
+            },
+            {
+              "File" : "EnemyCarrot_OnionIdle"
+            },
+            {
+              "File" : "EnemyCarrot_Damaged"
+            },
+            {
+              "File" : "EnemyCarrot_Death"
+            }
+          ],
+          "Component Name" : "Animator",
+          "GUID" : 10963690946328088244,
+          "KeySegment" : 
+          [
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 280,
+              "Loop" : false,
+              "MaxFrame" : 280,
+              "Speed" : 4.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 249,
+              "Loop" : false,
+              "MaxFrame" : 249,
+              "Speed" : 4.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 260,
+              "Loop" : false,
+              "MaxFrame" : 260,
+              "Speed" : 4.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 419,
+              "Loop" : false,
+              "MaxFrame" : 419,
+              "Speed" : 4.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 329,
+              "Loop" : false,
+              "MaxFrame" : 329,
+              "Speed" : 4.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 190,
+              "Loop" : false,
+              "MaxFrame" : 190,
+              "Speed" : 4.0,
+              "StartFrame" : 0
+            },
+            {
+              "Delay" : 0.0,
+              "Duration" : 0.016699999570846558,
+              "EndFrame" : 470,
+              "Loop" : false,
+              "MaxFrame" : 470,
+              "Speed" : 5.5,
+              "StartFrame" : 0
+            }
+          ],
+          "Play" : true,
+          "Transform Animate" : true,
+          "Transform Animate Count" : -1,
+          "Transform AnimateIndex" : -1,
+          "Transform Play" : false
+        }
+      ],
+      "ObjID" : 4973129128661222686,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 9.1552748926915228e-05, 0.40000006556510925, 4.2915347876260057e-05 ],
+        "Quaternion" : [ 0.0, -2.0861624250301247e-07, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 179.99996948242188, 0.0 ],
+        "Scale" : [ 0.019999992102384567, 0.020000003278255463, 0.019999992102384567 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "NewEnemyTank",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "NewEnemyTank",
+      "Prefab GUID" : 2181833902324871987,
+      "Prefab Name" : "NewEnemyTank",
+      "Tag" : "Solid"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.10000000149011612,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.5,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Restitution" : 0.5,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    },
+    {
+      "BoxHalfExtent" : [ 0.80000001192092896, 0.80000001192092896, 0.80000001192092896 ],
+      "CollisionGroup" : 1,
+      "CollisionWithGroup" : 0,
+      "Component Name" : "Collider",
+      "DrawPolygon" : true,
+      "FacesCount" : 6,
+      "GUID" : 14710440344490690589,
+      "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+      "IndicesCount" : 6,
+      "IsActive" : true,
+      "IsAutoScaleBox" : false,
+      "IsStatic" : false,
+      "IsTrigger" : false,
+      "ModelName" : "",
+      "Offset" : [ 0.0, 0.80000001192092896, 0.0 ],
+      "PolyModelName" : "",
+      "Radius" : 1.0,
+      "ShapeType" : 1,
+      "Velocity" : [ 0.0, 0.0, 0.0 ],
+      "VerticesCount" : 9,
+      "VerticesInEachFace" : 4
+    },
+    {
+      "Component Name" : "CommonEnemyBehaviour",
+      "GUID" : 10765104205153683754,
+      "aiState" : null,
+      "attackCooldownCurrent" : null,
+      "attackCooldownMaximum" : 
+      {
+        "Field Name" : "attackCooldownMaximum",
+        "Field Type" : 10,
+        "Field Value" : 3.0
+      },
+      "attackingStateCurrent" : null,
+      "attackingStateMaximum" : 
+      {
+        "Field Name" : "attackingStateMaximum",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "burrowBehaviour" : null,
+      "detectAttackRange" : 
+      {
+        "Field Name" : "detectAttackRange",
+        "Field Type" : 10,
+        "Field Value" : 1.0
+      },
+      "detectFollowRange" : 
+      {
+        "Field Name" : "detectFollowRange",
+        "Field Type" : 10,
+        "Field Value" : 5.0
+      },
+      "detectFollowWalkRange" : 
+      {
+        "Field Name" : "detectFollowWalkRange",
+        "Field Type" : 10,
+        "Field Value" : 3.0
+      },
+      "drownDeath" : null,
+      "enemyModel" : 
+      {
+        "Field Name" : "enemyModel",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "hasBeenTriggered" : null,
+      "hasDetectedPlayer" : null,
+      "hasSpawnedMark" : null,
+      "healthCurrent" : 
+      {
+        "Field Name" : "healthCurrent",
+        "Field Type" : 6,
+        "Field Value" : 9
+      },
+      "invincibleTimerCurrent" : null,
+      "invincibleTimerMaximum" : 
+      {
+        "Field Name" : "invincibleTimerMaximum",
+        "Field Type" : 10,
+        "Field Value" : 0.5
+      },
+      "isAttackOnCooldown" : null,
+      "isAttacking" : 
+      {
+        "Field Name" : "isAttacking",
+        "Field Type" : 1,
+        "Field Value" : false
+      },
+      "isDamaged" : null,
+      "isInvincible" : null,
+      "isRolling" : null,
+      "linkedBurrow" : 
+      {
+        "Field Name" : "linkedBurrow",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      },
+      "movementSpeed" : 
+      {
+        "Field Name" : "movementSpeed",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "myAnimator" : null,
+      "myRigidbody" : null,
+      "myTransform" : null,
+      "playerArray" : null,
+      "runMovementModifier" : 
+      {
+        "Field Name" : "runMovementModifier",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "targetPlayer" : 
+      {
+        "Field Name" : "targetPlayer",
+        "Field Type" : 15,
+        "Field Value" : 18446744073709551615
+      }
+    },
+    {
+      "Component Name" : "TankEnemyBehaviour",
+      "GUID" : 10765104205153683754,
+      "atkKnockbackNormal" : 
+      {
+        "Field Name" : "atkKnockbackNormal",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "atkKnockbackSpecial" : 
+      {
+        "Field Name" : "atkKnockbackSpecial",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "burrowDuration" : 
+      {
+        "Field Name" : "burrowDuration",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "commonEnemyBehaviour" : null,
+      "currState" : null,
+      "currTimer" : null,
+      "exposeDuration" : 
+      {
+        "Field Name" : "exposeDuration",
+        "Field Type" : 10,
+        "Field Value" : 0.0
+      },
+      "myTransform" : null,
+      "useCustomForce" : 
+      {
+        "Field Name" : "useCustomForce",
+        "Field Type" : 1,
+        "Field Value" : false
+      }
+    }
+  ],
+  "ObjID" : 4973129128661222685,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Quaternion" : [ -0.0, -0.7071068286895752, 0.0, 0.7071068286895752 ],
+    "Rotation" : [ -0.0, -90.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "Barrel",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "Barrel",
+      "Prefab GUID" : 15208322048991374641,
+      "Prefab Name" : "Barrel",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "RendererComponent",
+      "GUID" : 13504473812334180045,
+      "Material Name" : "Barrel",
+      "Model Name" : "Barrel_Model",
+      "Type" : 2
+    }
+  ],
+  "ObjID" : 12484284153426083861,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 1.5662963390350342, 0.37430912256240845, 1.8013502359390259 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

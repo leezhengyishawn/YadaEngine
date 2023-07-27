@@ -1,0 +1,642 @@
+{
+  "Child" : 
+  [
+    {
+      "Child" : 
+      [
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "MerchantParent",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "MerchantParent",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            }
+          ],
+          "ObjID" : 13498641453194151390,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 48.0, 1.0, -107.0 ],
+            "Quaternion" : [ 0.0, 1.0, 0.0, -4.3711388286737929e-08 ],
+            "Rotation" : [ -0.0, 180.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "CameraPosLook00",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "CameraPosLook00",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Animation Name" : "",
+              "ColorW" : 1.0,
+              "ColorX" : 0.0,
+              "ColorY" : 2.4318695068359375e-05,
+              "ColorZ" : 1.0,
+              "Component Name" : "RendererComponent",
+              "GUID" : 13504473812334180045,
+              "Material Name" : "",
+              "Model Name" : "",
+              "Type" : 0,
+              "UV TilingX" : 1.0,
+              "UV TilingY" : 1.0
+            }
+          ],
+          "ObjID" : 13498641453194151391,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 48.0, 1.0, -108.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+          }
+        },
+        {
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "CameraPosStation00",
+              "GUID" : 8287048469554089178,
+              "Layer" : "None",
+              "ObjName" : "CameraPosStation00",
+              "Prefab GUID" : 0,
+              "Prefab Name" : "",
+              "Tag" : "None"
+            },
+            {
+              "Animation Name" : "",
+              "ColorW" : 1.0,
+              "ColorX" : 0.73529386520385742,
+              "ColorY" : 0.0,
+              "ColorZ" : 1.0,
+              "Component Name" : "RendererComponent",
+              "GUID" : 13504473812334180045,
+              "Material Name" : "",
+              "Model Name" : "",
+              "Type" : 0,
+              "UV TilingX" : 1.0,
+              "UV TilingY" : 1.0
+            },
+            {
+              "Component Name" : "CutsceneTimer",
+              "GUID" : 10765104205153683754,
+              "shotTiming" : 
+              {
+                "Field Name" : "shotTiming",
+                "Field Type" : 10,
+                "Field Value" : 1.0
+              }
+            }
+          ],
+          "ObjID" : 13498641453194151392,
+          "Transform" : 
+          {
+            "Component Name" : "Transform",
+            "GUID" : 13979161094353040123,
+            "Position" : [ 48.0, 1.0, -100.0 ],
+            "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 0.50000017881393433, 0.50000017881393433, 0.50000017881393433 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "MerchantTrigger",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantTrigger",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "CollisionCheck"
+        },
+        {
+          "AngularAxisLock" : [ 0, 0, 0 ],
+          "AngularDamping" : 0.0,
+          "AngularVel" : [ 0.0, 0.0, 0.0 ],
+          "Component Name" : "RigidBody",
+          "Friction" : 0.0,
+          "GUID" : 12067142115517542600,
+          "HasCollider" : true,
+          "IsIgnoreThisBody" : false,
+          "IsRigidBodySleeping" : false,
+          "LinearAxisLock" : [ 0, 0, 0 ],
+          "LinearDamping" : 0.0,
+          "LinearVel" : [ 0.0, 0.0, 0.0 ],
+          "Mass" : 20.0,
+          "Position" : [ 48.0, 1.0, -107.0 ],
+          "Restitution" : 0.0,
+          "RigidBodyType" : 0,
+          "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+          "SleepingTime" : 0.0,
+          "UseGravity" : false
+        },
+        {
+          "BoxHalfExtent" : [ 2.5, 2.5, 1.0 ],
+          "CollisionGroup" : 2,
+          "CollisionWithGroup" : 0,
+          "Component Name" : "Collider",
+          "DrawPolygon" : true,
+          "FacesCount" : 0,
+          "GUID" : 14710440344490690589,
+          "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+          "IndicesCount" : 0,
+          "IsActive" : true,
+          "IsAutoScaleBox" : false,
+          "IsStatic" : false,
+          "IsTrigger" : true,
+          "ModelName" : "",
+          "Offset" : [ 0.0, 1.5, 3.4000000953674316 ],
+          "PolyModelName" : "",
+          "Radius" : 0.25999999046325684,
+          "ShapeType" : 1,
+          "Velocity" : [ 0.0, 0.0, 0.0 ],
+          "VerticesCount" : 0,
+          "VerticesInEachFace" : 0
+        },
+        {
+          "Component Name" : "MerchantBehaviour",
+          "GUID" : 10765104205153683754,
+          "allowMerchantMovement" : 
+          {
+            "Field Name" : "allowMerchantMovement",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "atCounter" : null,
+          "boughtOnce" : null,
+          "cutsceneTrigger" : null,
+          "enteredOnce" : null,
+          "enteredTrigger" : 
+          {
+            "Field Name" : "enteredTrigger",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "mainCamera" : null,
+          "merchItem1" : 
+          {
+            "Field Name" : "merchItem1",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151393
+          },
+          "merchItem2" : 
+          {
+            "Field Name" : "merchItem2",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151394
+          },
+          "merchModel" : 
+          {
+            "Field Name" : "merchModel",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151401
+          },
+          "merchModelAnim" : null,
+          "merchModelRunToPoint" : 
+          {
+            "Field Name" : "merchModelRunToPoint",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151400
+          },
+          "purchasedItem" : 
+          {
+            "Field Name" : "purchasedItem",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "runToDistance" : null,
+          "shopPrompt" : 
+          {
+            "Field Name" : "shopPrompt",
+            "Field Type" : 15,
+            "Field Value" : 13498641457489118701
+          },
+          "startTalk" : 
+          {
+            "Field Name" : "startTalk",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "transform" : null,
+          "triggeredYet" : null
+        },
+        {
+          "Component Name" : "CutsceneTrigger",
+          "GUID" : 10765104205153683754,
+          "cameraPosFollow" : 
+          {
+            "Field Name" : "cameraPosFollow",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151390
+          },
+          "controlledByTime" : 
+          {
+            "Field Name" : "controlledByTime",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "cutsceneActivated" : null,
+          "cutsceneDurationCurrent" : null,
+          "cutsceneDurationMaximum" : null,
+          "delayDurationCurrent" : null,
+          "delayDurationMaximum" : null,
+          "dialogueBehaviour" : null,
+          "enteredPlayer" : null,
+          "hasBeenTriggered" : null,
+          "hasEndedDialogue" : 
+          {
+            "Field Name" : "hasEndedDialogue",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "hasResetButtons" : null,
+          "listOfLookObjects" : null,
+          "listOfStationObjects" : null,
+          "mainCamera" : null,
+          "merchantBehaviour" : null,
+          "player1Behaviour" : null,
+          "player1ReadyNext" : null,
+          "player1ReadySkip" : null,
+          "player2Behaviour" : null,
+          "player2ReadyNext" : null,
+          "player2ReadySkip" : null,
+          "shotValue" : null,
+          "startTimer" : null,
+          "startingRotation" : null,
+          "transitionLevelTrigger" : null,
+          "unlockableBehaviour" : null
+        },
+        {
+          "Component Name" : "Dialogue",
+          "GUID" : 10765104205153683754,
+          "cTimer" : null,
+          "currentText" : null,
+          "currentTextNumber" : null,
+          "dialogueIsShowing" : 
+          {
+            "Field Name" : "dialogueIsShowing",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "dialogueSprite" : 
+          {
+            "Field Name" : "dialogueSprite",
+            "Field Type" : 15,
+            "Field Value" : 13498641332935066259
+          },
+          "hasPlayedSpeakerAudio" : null,
+          "hasUnlock" : null,
+          "speakerSFX1" : null,
+          "speakerSFX2" : null,
+          "speakerSFX3" : null,
+          "speakerSprite" : 
+          {
+            "Field Name" : "speakerSprite",
+            "Field Type" : 15,
+            "Field Value" : 13498641332935066258
+          },
+          "speakerSpriteEndPos" : null,
+          "speakerSpriteStartPos" : 
+          {
+            "Field Name" : "speakerSpriteStartPos",
+            "Field Type" : 13,
+            "Field Value" : [ 1200.0, -305.0, 0.0 ]
+          },
+          "text1" : 
+          {
+            "Field Name" : "text1",
+            "Field Type" : 15,
+            "Field Value" : 13498641332935066260
+          },
+          "text2" : 
+          {
+            "Field Name" : "text2",
+            "Field Type" : 15,
+            "Field Value" : 18446744073709551615
+          },
+          "text3" : 
+          {
+            "Field Name" : "text3",
+            "Field Type" : 15,
+            "Field Value" : 18446744073709551615
+          },
+          "ui1" : null,
+          "ui2" : null
+        }
+      ],
+      "ObjID" : 13498641453194151389,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 48.0, 1.0, -107.0 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "MerchantItem01",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantItem01",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "CollisionCheck"
+        },
+        {
+          "AngularAxisLock" : [ 0, 0, 0 ],
+          "AngularDamping" : 0.0,
+          "AngularVel" : [ 0.0, 0.0, 0.0 ],
+          "Component Name" : "RigidBody",
+          "Friction" : 0.0,
+          "GUID" : 12067142115517542600,
+          "HasCollider" : true,
+          "IsIgnoreThisBody" : false,
+          "IsRigidBodySleeping" : false,
+          "LinearAxisLock" : [ 0, 0, 0 ],
+          "LinearDamping" : 0.0,
+          "LinearVel" : [ 0.0, 0.0, 0.0 ],
+          "Mass" : 20.0,
+          "Position" : [ 47.200000762939453, 1.0, -105.5 ],
+          "Restitution" : 0.0,
+          "RigidBodyType" : 0,
+          "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+          "SleepingTime" : 0.0,
+          "UseGravity" : false
+        },
+        {
+          "BoxHalfExtent" : [ 0.40000000596046448, 1.0, 1.0 ],
+          "CollisionGroup" : 2,
+          "CollisionWithGroup" : 0,
+          "Component Name" : "Collider",
+          "DrawPolygon" : true,
+          "FacesCount" : 0,
+          "GUID" : 14710440344490690589,
+          "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+          "IndicesCount" : 0,
+          "IsActive" : true,
+          "IsAutoScaleBox" : false,
+          "IsStatic" : false,
+          "IsTrigger" : true,
+          "ModelName" : "",
+          "Offset" : [ 0.0, 0.0, 0.0 ],
+          "PolyModelName" : "",
+          "Radius" : 0.25999999046325684,
+          "ShapeType" : 1,
+          "Velocity" : [ 0.0, 0.0, 0.0 ],
+          "VerticesCount" : 0,
+          "VerticesInEachFace" : 0
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Item_blue",
+          "Model Name" : "item_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "MerchantItem",
+          "GUID" : 10765104205153683754,
+          "endingPos" : null,
+          "floatUpAmount" : null,
+          "isAwake" : null,
+          "isFloatingUp" : null,
+          "isPlayerInfront" : 
+          {
+            "Field Name" : "isPlayerInfront",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "merchantBehaviour" : null,
+          "merchantStore" : 
+          {
+            "Field Name" : "merchantStore",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151389
+          },
+          "merchantdiag" : 
+          {
+            "Field Name" : "merchantdiag",
+            "Field Type" : 15,
+            "Field Value" : 13498641457489118699
+          },
+          "myTransform" : null,
+          "startingPos" : null,
+          "ui" : null,
+          "upgradeValue" : 
+          {
+            "Field Name" : "upgradeValue",
+            "Field Type" : 6,
+            "Field Value" : 1
+          }
+        }
+      ],
+      "ObjID" : 13498641453194151393,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 47.200000762939453, 1.0, -105.5 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "MerchantItem02",
+          "GUID" : 8287048469554089178,
+          "Layer" : "None",
+          "ObjName" : "MerchantItem02",
+          "Prefab GUID" : 0,
+          "Prefab Name" : "",
+          "Tag" : "CollisionCheck"
+        },
+        {
+          "AngularAxisLock" : [ 0, 0, 0 ],
+          "AngularDamping" : 0.0,
+          "AngularVel" : [ 0.0, 0.0, 0.0 ],
+          "Component Name" : "RigidBody",
+          "Friction" : 0.0,
+          "GUID" : 12067142115517542600,
+          "HasCollider" : true,
+          "IsIgnoreThisBody" : false,
+          "IsRigidBodySleeping" : false,
+          "LinearAxisLock" : [ 0, 0, 0 ],
+          "LinearDamping" : 0.0,
+          "LinearVel" : [ 0.0, 0.0, 0.0 ],
+          "Mass" : 20.0,
+          "Position" : [ 48.799999237060547, 1.0, -105.5 ],
+          "Restitution" : 0.0,
+          "RigidBodyType" : 0,
+          "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+          "SleepingTime" : 0.0,
+          "UseGravity" : false
+        },
+        {
+          "BoxHalfExtent" : [ 0.40000000596046448, 1.0, 1.0 ],
+          "CollisionGroup" : 2,
+          "CollisionWithGroup" : 0,
+          "Component Name" : "Collider",
+          "DrawPolygon" : true,
+          "FacesCount" : 0,
+          "GUID" : 14710440344490690589,
+          "GlobalCenter" : [ 0.0, 0.0, 0.0 ],
+          "IndicesCount" : 0,
+          "IsActive" : true,
+          "IsAutoScaleBox" : false,
+          "IsStatic" : false,
+          "IsTrigger" : true,
+          "ModelName" : "",
+          "Offset" : [ 0.0, 0.0, 0.0 ],
+          "PolyModelName" : "",
+          "Radius" : 1.9517121412396775e-14,
+          "ShapeType" : 1,
+          "Velocity" : [ 0.0, 0.0, 0.0 ],
+          "VerticesCount" : 0,
+          "VerticesInEachFace" : 0
+        },
+        {
+          "Animation Name" : "",
+          "ColorW" : 1.0,
+          "ColorX" : 1.0,
+          "ColorY" : 1.0,
+          "ColorZ" : 1.0,
+          "Component Name" : "RendererComponent",
+          "GUID" : 13504473812334180045,
+          "Material Name" : "Item_pink",
+          "Model Name" : "item_Model",
+          "Type" : 2,
+          "UV TilingX" : 1.0,
+          "UV TilingY" : 1.0
+        },
+        {
+          "Component Name" : "MerchantItem",
+          "GUID" : 10765104205153683754,
+          "endingPos" : null,
+          "floatUpAmount" : null,
+          "isAwake" : null,
+          "isFloatingUp" : null,
+          "isPlayerInfront" : 
+          {
+            "Field Name" : "isPlayerInfront",
+            "Field Type" : 1,
+            "Field Value" : false
+          },
+          "merchantBehaviour" : null,
+          "merchantStore" : 
+          {
+            "Field Name" : "merchantStore",
+            "Field Type" : 15,
+            "Field Value" : 13498641453194151389
+          },
+          "merchantdiag" : 
+          {
+            "Field Name" : "merchantdiag",
+            "Field Type" : 15,
+            "Field Value" : 13498641457489118700
+          },
+          "myTransform" : null,
+          "startingPos" : null,
+          "ui" : null,
+          "upgradeValue" : 
+          {
+            "Field Name" : "upgradeValue",
+            "Field Type" : 6,
+            "Field Value" : 2
+          }
+        }
+      ],
+      "ObjID" : 13498641453194151394,
+      "Transform" : 
+      {
+        "Component Name" : "Transform",
+        "GUID" : 13979161094353040123,
+        "Position" : [ 48.799999237060547, 1.0, -105.5 ],
+        "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "MerchantTriggerParent",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "MerchantTriggerParent",
+      "Prefab GUID" : 9728123844652269339,
+      "Prefab Name" : "MerchantTriggerParent",
+      "Tag" : "None"
+    },
+    {
+      "AngularAxisLock" : [ 0, 0, 0 ],
+      "AngularDamping" : 0.0,
+      "AngularVel" : [ 0.0, 0.0, 0.0 ],
+      "Component Name" : "RigidBody",
+      "Friction" : 0.0,
+      "GUID" : 12067142115517542600,
+      "HasCollider" : true,
+      "IsIgnoreThisBody" : true,
+      "IsRigidBodySleeping" : false,
+      "LinearAxisLock" : [ 0, 0, 0 ],
+      "LinearDamping" : 0.0,
+      "LinearVel" : [ 0.0, 0.0, 0.0 ],
+      "Mass" : 20.0,
+      "Position" : [ 48.0, 0.0, -107.0 ],
+      "Restitution" : 0.0,
+      "RigidBodyType" : 0,
+      "Rotation" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "SleepingTime" : 0.0,
+      "UseGravity" : false
+    }
+  ],
+  "ObjID" : 13498641453194151388,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ 48.0, 0.0, -107.0 ],
+    "Quaternion" : [ 0.0, 0.0, 0.0, 1.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "p1Ping",
+      "GUID" : 8287048469554089178,
+      "Layer" : "None",
+      "ObjName" : "p1Ping",
+      "Prefab GUID" : 6838714137193047794,
+      "Prefab Name" : "p1Ping",
+      "Tag" : "None"
+    },
+    {
+      "Component Name" : "PopUp",
+      "GUID" : 10765104205153683754,
+      "endPos" : null,
+      "endScale" : null,
+      "hangTime" : null,
+      "popUpState" : null,
+      "popupSprite" : null,
+      "scaleVelocity" : null,
+      "speed" : null,
+      "spriteStartPos" : null,
+      "spriteStartScale" : null,
+      "threshold" : null,
+      "timeTaken" : null,
+      "trans" : null,
+      "ui" : null,
+      "velocity" : null
+    },
+    {
+      "Component Name" : "UIComponent",
+      "GUID" : 15327929856128578838,
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "fillHori" : 1.0,
+      "fillMode" : 0,
+      "fillVert" : 1.0,
+      "hightlightedTexture" : "",
+      "texture" : "p1icon",
+      "type" : 0,
+      "worldSize" : true,
+      "worldUI" : true
+    }
+  ],
+  "ObjID" : 13084979735438557197,
+  "Transform" : 
+  {
+    "Component Name" : "Transform",
+    "GUID" : 13979161094353040123,
+    "Position" : [ -7.6293954407447018e-06, 3.0, -2.0000114440917969 ],
+    "Quaternion" : [ 0.0, -0.7071068286895752, 0.0, 0.7071068286895752 ],
+    "Rotation" : [ -0.0, 90.0, 0.0 ],
+    "Scale" : [ 0.0010000098263844848, 0.0010000098263844848, 0.0010000098263844848 ]
+  }
+}

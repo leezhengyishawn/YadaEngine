@@ -1,0 +1,9 @@
+{
+  "Albedo" : "carrot_carrot_BaseColor",
+  "Normal" : "carrot_carrot_Normal",
+  "ORM" : "carrot_carrot_OcclusionRoughnessMetallic",
+  "RimColorX" : 1.0,
+  "RimColorY" : 1.0,
+  "RimColorZ" : 1.0,
+  "RimWidth" : 0.0
+}

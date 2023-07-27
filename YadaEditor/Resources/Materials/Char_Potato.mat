@@ -1,0 +1,9 @@
+{
+  "Albedo" : "potat_potato_BaseColor",
+  "Normal" : "potat_potato_Normal",
+  "ORM" : "potat_potato_OcclusionRoughnessMetallic",
+  "RimColorX" : 1.0,
+  "RimColorY" : 1.0,
+  "RimColorZ" : 1.0,
+  "RimWidth" : 0.0
+}
