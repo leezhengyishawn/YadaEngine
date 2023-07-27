@@ -1,5 +1,6 @@
 # 1. Yada Engine
 Yada Engine was a 3D game engine and editor made for the courses GAM300 and GAM350 at university. Using it, we made the co-op platformer Fruit Punch!
+![image](https://github.com/leezhengyishawn/YadaEngine/assets/100258469/33e24db2-d167-4485-81dd-38f731555d43)
 
 Utilized: C++, C#, Mono, Assimp, Vulkan, ImGUI, Xinput, Winsock
 
@@ -14,8 +15,6 @@ Gameplay wise, I created helper scripts that would allow the game designers to h
 
 # 3. How to Use
 Run Executable/YadaEditor.exe
-
-![image](https://github.com/leezhengyishawn/YadaEngine/assets/100258469/33e24db2-d167-4485-81dd-38f731555d43)
 
 Clicking on a game object will bring up it's stats on the Inspector. From there, you can edit it just like in Unity or Unreal.
 
