@@ -15,6 +15,12 @@ Gameplay wise, I created helper scripts that would allow the game designers to h
 # 3. How to Use
 Run Executable/YadaEditor.exe
 
+![image](https://github.com/leezhengyishawn/YadaEngine/assets/100258469/33e24db2-d167-4485-81dd-38f731555d43)
+
+Clicking on a game object will bring up it's stats on the Inspector. From there, you can edit it just like in Unity or Unreal.
+
+To create a new script, create it in the Scripts folder and make sure it's included in the csproj file.
+
 You can load any of the scenes in Resources/Scenes to try out the game.
 
 You can also play the game made with this engine at: https://arcade.digipen.edu/games/fruit-punch
